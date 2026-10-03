@@ -65,7 +65,7 @@ class ApiTests(unittest.TestCase):
                 "mule_graph.json": {"nodes": [], "edges": [], "mules": [], "rings": 0}}[name]
 
     def test_dashboard_transaction_filters_and_trends(self):
-        self.assertEqual(self.client.get("/api/health").json(), {"status": "ok"})
+        self.assertEqual(self.client.get("/api/health").json(), {"status": "ok", "ready": True, "missing": []})
         self.assertEqual(self.client.get("/api/dashboard").status_code, 200)
         result = self.client.get("/api/transactions?flagged=true&limit=5").json()
         self.assertEqual(result["total"], 1)
@@ -73,6 +73,27 @@ class ApiTests(unittest.TestCase):
         trends = self.client.get("/api/trends").json()
         self.assertEqual(trends["by_channel"][0]["channel"], "UPI")
         self.assertEqual(trends["graph"]["rings"], 0)
+        self.assertEqual(trends["graph_scope"], "all_generated_events")
+        self.assertEqual(trends["risky_payees"][0]["transactions"], 1)
+        all_trends = self.client.get("/api/trends?scope=all").json()
+        self.assertEqual(all_trends["risky_payees"][0]["transactions"], 2)
+        self.assertEqual(sum(row["count"] for row in trends["flow"]), 1)
+        self.assertEqual(sum(row["count"] for row in all_trends["flow"]), 2)
+
+    def test_health_reports_missing_database_readiness(self):
+        api.iv.DB = os.path.join(self.temp_dir.name, "missing.db")
+        health = self.client.get("/api/health").json()
+        self.assertEqual(health["status"], "ok")
+        self.assertFalse(health["ready"])
+        self.assertIn("database", health["missing"])
+
+    def test_health_reports_invalid_artifact_readiness(self):
+        with open(os.path.join(self.temp_dir.name, "metrics.json"), "w", encoding="utf-8") as stream:
+            stream.write("{")
+        with patch.object(api, "DATA", self.temp_dir.name):
+            health = self.client.get("/api/health").json()
+        self.assertFalse(health["ready"])
+        self.assertIn("metrics.json", health["missing"])
 
     def test_customer_and_loan_views(self):
         customers = self.client.get("/api/customers").json()

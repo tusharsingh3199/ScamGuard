@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Plot from '../plotly.js';
 import { CircleAlert, ClipboardCheck, Search, Send, UserRoundCheck } from 'lucide-react';
 import { getCases, getLoans, updateCase } from '../api.js';
@@ -20,12 +20,26 @@ export default function Loans() {
   const [note, setNote] = useState('');
   const [error, setError] = useState('');
   const [notice, setNotice] = useState('');
+  const caseRequestId = useRef(0);
 
   const loadLoans = () => getLoans().then(setLoanData).catch((issue) => setError(issue.message));
   const casePageSize = 100;
-  const loadCases = () => getCases({ limit: casePageSize, offset: casePage * casePageSize, type, status, search }).then((result) => { setCaseData(result); setSelectedCase((current) => result.items.find((row) => row.case_id === current?.case_id) || result.items[0] || null); }).catch((issue) => setError(issue.message));
+  const loadCases = () => {
+    const requestId = ++caseRequestId.current;
+    return getCases({ limit: casePageSize, offset: casePage * casePageSize, type, status, search }).then((result) => {
+      if (requestId !== caseRequestId.current) return;
+      setCaseData(result);
+      setSelectedCase((current) => result.items.find((row) => row.case_id === current?.case_id) || result.items[0] || null);
+    }).catch((issue) => { if (requestId === caseRequestId.current) setError(issue.message); });
+  };
   useEffect(() => { loadLoans(); }, []);
-  useEffect(() => { loadCases(); }, [type, status, search, casePage]);
+  useEffect(() => {
+    const timer = window.setTimeout(loadCases, search ? 250 : 0);
+    return () => {
+      window.clearTimeout(timer);
+      caseRequestId.current += 1;
+    };
+  }, [type, status, search, casePage]);
   useEffect(() => { setAssignee(selectedCase?.assignee || ''); setNote(''); }, [selectedCase?.case_id]);
 
   const borrowers = loanData?.borrowers || [];
@@ -59,7 +73,7 @@ export default function Loans() {
       </div>
       <aside className="case-detail-panel">{selectedCase ? <><div className="case-detail-head"><span className={`case-type-mark ${selectedCase.type}`}>{selectedCase.type === 'fraud' ? 'F' : 'L'}</span><div><span className="eyebrow">CASE #{selectedCase.case_id} · {selectedCase.type.toUpperCase()}</span><h2>{selectedCase.customer_name}</h2><p>{selectedCase.category?.replaceAll('_', ' ')} · {selectedCase.created_at}</p></div></div><div className="case-risk-block"><span>RISK SCORE</span><strong>{Number(selectedCase.risk_score).toFixed(2)}</strong><span>{money(selectedCase.amount)} exposure</span></div><div className="case-copy"><span className="eyebrow">RECOMMENDED ACTION</span><p>{selectedCase.recommended_action}</p></div><div className="case-copy"><span className="eyebrow">CASE SUMMARY</span><p>{selectedCase.summary || 'No summary available.'}</p></div><div className="reason-list">{safeReasons(selectedCase.reasons).map((reason) => <span key={reason}>{reason}</span>)}</div><div className="case-notes"><span className="eyebrow">CASE LOG</span><pre>{selectedCase.notes || 'No notes recorded.'}</pre></div>
         <label className="form-label">ASSIGNEE<input className="text-input" value={assignee} onChange={(event) => setAssignee(event.target.value)} placeholder="Analyst name" /></label><label className="form-label">ADD NOTE<input className="text-input" value={note} onChange={(event) => setNote(event.target.value)} placeholder="Record an action or observation" /></label>
-        <div className="case-actions"><button className="primary-button" onClick={() => changeCase({ status: selectedCase.status === 'Open' ? 'In Progress' : selectedCase.status, assignee, note: `Assigned to ${assignee}` }, 'Case assignment saved.')}><UserRoundCheck size={15} /> Assign</button><button className="secondary-button" disabled={!note.trim()} onClick={() => changeCase({ note }, 'Case note added.')}><Send size={14} /> Add note</button><button className="secondary-button" onClick={() => changeCase({ status: 'In Progress', note: 'Reminder sent to customer by SMS and app.' }, 'Reminder logged.')}><Send size={14} /> Reminder</button>{selectedCase.type === 'loan' && <button className="secondary-button" onClick={() => changeCase({ status: 'In Progress', note: `Restructuring offer sent: ${selectedCase.recommended_action}` }, 'Restructuring offer logged.')}><ClipboardCheck size={14} /> Restructure</button>}{selectedCase.type === 'fraud' && <button className="secondary-button" onClick={() => changeCase({ status: 'In Progress', note: 'Escalated to fraud investigation team.' }, 'Case escalated.')}><CircleAlert size={14} /> Escalate</button>}<button className="resolve-button" onClick={() => changeCase({ status: selectedCase.status === 'Resolved' ? 'Open' : 'Resolved', note: selectedCase.status === 'Resolved' ? 'Case reopened.' : 'Case resolved.' }, selectedCase.status === 'Resolved' ? 'Case reopened.' : 'Case resolved.')}>{selectedCase.status === 'Resolved' ? 'Reopen' : 'Resolve'}</button></div></> : <div className="empty-detail">Select a case to review its risk context and actions.</div>}</aside>
+        <div className="case-actions"><button className="primary-button" onClick={() => changeCase({ status: selectedCase.status === 'Open' ? 'In Progress' : selectedCase.status, assignee, note: `Assigned to ${assignee}` }, 'Case assignment saved.')}><UserRoundCheck size={15} /> Assign</button><button className="secondary-button" disabled={!note.trim()} onClick={() => changeCase({ note }, 'Case note added.')}><Send size={14} /> Add note</button><button className="secondary-button" onClick={() => changeCase({ status: 'In Progress', note: 'Reminder logged; no message was sent.' }, 'Reminder logged locally; no message was sent.')}><Send size={14} /> Log reminder</button>{selectedCase.type === 'loan' && <button className="secondary-button" onClick={() => changeCase({ status: 'In Progress', note: `Restructuring recommendation logged; loan terms unchanged. ${selectedCase.recommended_action}` }, 'Restructuring recommendation logged; loan terms are unchanged.')}><ClipboardCheck size={14} /> Log restructure</button>}{selectedCase.type === 'fraud' && <button className="secondary-button" onClick={() => changeCase({ status: 'In Progress', note: 'Escalated to fraud investigation team.' }, 'Case escalated.')}><CircleAlert size={14} /> Escalate</button>}<button className="resolve-button" onClick={() => changeCase({ status: selectedCase.status === 'Resolved' ? 'Open' : 'Resolved', note: selectedCase.status === 'Resolved' ? 'Case reopened.' : 'Case resolved.' }, selectedCase.status === 'Resolved' ? 'Case reopened.' : 'Case resolved.')}>{selectedCase.status === 'Resolved' ? 'Reopen' : 'Resolve'}</button></div></> : <div className="empty-detail">Select a case to review its risk context and actions.</div>}</aside>
     </div>}
     <div className="notice-line"><span className="state-dot" /> Risk bands and interventions are generated from synthetic demo data.</div>
   </section>;

@@ -49,7 +49,23 @@ def _records(frame):
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok"}
+    missing = []
+    if not os.path.isfile(iv.DB):
+        missing.append("database")
+    else:
+        try:
+            with closing(sqlite3.connect(iv.DB)) as connection:
+                for table in ("customers", "scored_transactions", "borrower_scores", "cases"):
+                    connection.execute(f"SELECT 1 FROM {table} LIMIT 0")
+        except sqlite3.Error:
+            missing.append("database")
+    for artifact in ("metrics.json", "meta.json", "mule_graph.json"):
+        try:
+            with open(os.path.join(DATA, artifact), encoding="utf-8") as stream:
+                json.load(stream)
+        except (OSError, json.JSONDecodeError):
+            missing.append(artifact)
+    return {"status": "ok", "ready": not missing, "missing": missing}
 
 
 @app.get("/api/dashboard")
@@ -103,12 +119,13 @@ def trends(scope: Literal["flagged", "all"] = "flagged"):
         "SELECT channel, scam_type_pred AS scam_type, COUNT(*) AS alerts "
         f"FROM scored_transactions{where} GROUP BY channel, scam_type ORDER BY channel"
     )
+    payee_where = " WHERE s.fraud_score >= 0.5" if scope == "flagged" else ""
     risky_payees = _rows(
-        "SELECT s.payee_id, p.category, p.age_days, p.is_mule AS mule_flag, COUNT(*) AS alerts, "
+        "SELECT s.payee_id, p.category, p.age_days, p.is_mule AS mule_flag, COUNT(*) AS transactions, "
         "SUM(s.amount) AS amount, MAX(s.fraud_score) AS max_score "
         "FROM scored_transactions s LEFT JOIN payees p ON s.payee_id = p.payee_id "
-        "WHERE s.fraud_score >= 0.5 GROUP BY s.payee_id "
-        "ORDER BY alerts DESC, amount DESC LIMIT 12"
+        f"{payee_where} GROUP BY s.payee_id "
+        "ORDER BY transactions DESC, amount DESC LIMIT 12"
     )
     flow = _rows(
         "SELECT channel, COALESCE(payee_type, 'other') AS payee_type, "
@@ -121,6 +138,7 @@ def trends(scope: Literal["flagged", "all"] = "flagged"):
         "risky_payees": risky_payees,
         "flow": flow,
         "graph": _json_file("mule_graph.json"),
+        "graph_scope": "all_generated_events",
     }
 
 

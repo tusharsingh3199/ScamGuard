@@ -1,5 +1,5 @@
 import { Suspense, lazy, useEffect, useState } from 'react';
-import { Activity, ChartNoAxesCombined, CircleAlert, Landmark, ShieldCheck, UsersRound } from 'lucide-react';
+import { Activity, ChartNoAxesCombined, CircleAlert, Landmark, Moon, ShieldCheck, Sun, UsersRound } from 'lucide-react';
 import { getDashboard } from './api.js';
 import LiveMonitor from './pages/LiveMonitor.jsx';
 
@@ -22,9 +22,14 @@ const titles = {
 
 export default function App() {
   const [page, setPage] = useState('monitor');
+  const [theme, setTheme] = useState(() => window.localStorage.getItem('scamguard-theme') || 'light');
   const [dashboard, setDashboard] = useState(null);
   const [error, setError] = useState('');
   useEffect(() => { getDashboard().then(setDashboard).catch((issue) => setError(issue.message)); }, []);
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    window.localStorage.setItem('scamguard-theme', theme);
+  }, [theme]);
   const title = titles[page];
 
   return <div className="app-shell">
@@ -35,7 +40,7 @@ export default function App() {
       <div className="sidebar-bottom"><div className="system-state"><span className="state-dot" /> Demo systems ready</div><p>Generated data · scored offline</p><div className="sidebar-foot"><span>SCAMGUARD</span><span>v1.0</span></div></div>
     </aside>
     <main className="main-area">
-      <header className="topbar"><div className="breadcrumbs"><span>Risk operations</span><span className="crumb-slash">/</span><strong>{title[0]}</strong></div><div className="topbar-right"><span className="environment"><span className="state-dot" /> Synthetic demo</span><span className="topbar-divider" /><span className="operator"><span className="operator-avatar">A</span> Analyst</span></div></header>
+      <header className="topbar"><div className="breadcrumbs"><span>Risk operations</span><span className="crumb-slash">/</span><strong>{title[0]}</strong></div><div className="topbar-right"><span className="environment"><span className="state-dot" /> Synthetic demo</span><span className="topbar-divider" /><span className="operator"><span className="operator-avatar">A</span> Analyst</span><button className="theme-toggle" type="button" aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`} aria-pressed={theme === 'dark'} title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`} onClick={() => setTheme((current) => current === 'dark' ? 'light' : 'dark')}>{theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}</button></div></header>
       <div className="content-area">
         <div className="page-heading"><div><p className="eyebrow">RISK OPERATIONS / {page.toUpperCase()}</p><h1>{title[0]}</h1><p className="page-subtitle">{title[1]}</p></div>{dashboard && <div className="header-stat"><span>EVENTS SCORED</span><strong>{Number(dashboard.metrics?.data?.transactions || 0).toLocaleString()}</strong></div>}</div>
         {error && <div className="error-banner"><CircleAlert size={17} /> {error}. Start the API server and refresh.</div>}

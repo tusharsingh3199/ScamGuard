@@ -1,0 +1,8 @@
+pandas>=2.2
+numpy>=1.26
+Faker>=24
+scikit-learn>=1.4
+xgboost>=2.0
+networkx>=3.2
+fastapi>=0.115
+uvicorn[standard]>=0.34

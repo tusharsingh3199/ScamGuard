@@ -1,0 +1,1002 @@
+customer_id,name,age,city,occupation,monthly_income,account_age_days,phone
+C0001,Aryan Maharaj,36,Pune,Salaried,65200.0,2962,9110993916
+C0002,Udant Dewan,30,Mumbai,Self-employed,32800.0,2303,9261649145
+C0003,Gagan Sami,36,Jaipur,Shopkeeper,30300.0,254,9123114991
+C0004,Ayushman Chander,44,Lucknow,Engineer,47300.0,1084,9332730883
+C0005,Viraj Tiwari,56,Lucknow,Salaried,51600.0,211,9500010728
+C0006,Rushil Saini,48,Chennai,Shopkeeper,30600.0,3291,9809073956
+C0007,Saumya Mall,21,Lucknow,Engineer,56400.0,1708,9630594208
+C0008,Nathaniel Sami,58,Ahmedabad,Gig worker,62000.0,357,9656686212
+C0009,Arunima Dugal,51,Delhi,Engineer,72500.0,965,9901417028
+C0010,Gayathri Chaudry,45,Pune,Salaried,92500.0,267,9767302125
+C0011,Lajita Chatterjee,37,Lucknow,Salaried,24600.0,3697,9947419714
+C0012,Hemangini Lalla,25,Kolkata,Shopkeeper,38300.0,1427,9160858006
+C0013,Tripti Yadav,60,Chennai,Salaried,38200.0,3392,9710974395
+C0014,Kritika Brar,24,Bengaluru,Salaried,36200.0,3828,9122452946
+C0015,Janaki Handa,56,Hyderabad,Gig worker,27500.0,3284,9905468361
+C0016,Chakradev Kari,26,Delhi,Salaried,18100.0,2793,9611692169
+C0017,Fariq Kaul,24,Bengaluru,Gig worker,39800.0,2974,9954671849
+C0018,Lajita Mall,65,Jaipur,Self-employed,25900.0,3533,9755107472
+C0019,Janya Gaba,44,Chennai,Engineer,39700.0,2316,9264612865
+C0020,Isha Kadakia,65,Delhi,Teacher,25500.0,2692,9627550667
+C0021,Ekbal Garg,23,Chennai,Shopkeeper,21900.0,1110,9722398732
+C0022,Nihal Shere,59,Ahmedabad,Gig worker,42700.0,1392,9729656061
+C0023,Anamika Kanda,42,Kolkata,Teacher,41000.0,2899,9318501086
+C0024,Daksh Karnik,55,Hyderabad,Shopkeeper,50800.0,2705,9902626714
+C0025,Diya Rattan,65,Ahmedabad,Teacher,113400.0,2469,9527800106
+C0026,Dominic Kakar,56,Hyderabad,Self-employed,43700.0,757,9744223884
+C0027,Simon Tata,40,Delhi,Salaried,48400.0,3541,9206944787
+C0028,Tara Dhar,39,Hyderabad,Salaried,22200.0,829,9946244533
+C0029,Liam Koshy,47,Bengaluru,Salaried,20000.0,1817,9757355467
+C0030,Priya Rastogi,29,Jaipur,Shopkeeper,83800.0,1060,9123588420
+C0031,Theodore Devi,64,Hyderabad,Engineer,23900.0,1416,9295319139
+C0032,Gavin Batta,42,Mumbai,Engineer,22500.0,2142,9923749484
+C0033,Michael Dutta,43,Pune,Gig worker,37300.0,786,9841683300
+C0034,Devansh Rajan,53,Mumbai,Gig worker,36300.0,2244,9280914533
+C0035,Upadhriti Wadhwa,26,Jaipur,Salaried,24200.0,2171,9322939726
+C0036,Advay Contractor,50,Delhi,Salaried,32600.0,2278,9651152483
+C0037,Harini Choudhury,29,Chennai,Engineer,70300.0,1467,9241310191
+C0038,Radhika Dugar,59,Jaipur,Teacher,25400.0,3232,9800937422
+C0039,Aarush Lall,54,Hyderabad,Salaried,18900.0,2468,9345819891
+C0040,Yashica Cherian,55,Chennai,Shopkeeper,60900.0,2463,9595479728
+C0041,Yashica Issac,62,Chennai,Self-employed,48600.0,1611,9887520986
+C0042,Kashvi Edwin,55,Mumbai,Self-employed,27900.0,1610,9682030457
+C0043,Ekiya Suresh,23,Jaipur,Teacher,17200.0,1061,9235587481
+C0044,Isaac Patil,49,Bengaluru,Shopkeeper,26200.0,3145,9959511753
+C0045,Wriddhish Bhardwaj,45,Ahmedabad,Salaried,37000.0,1301,9102011684
+C0046,Farhan Chada,51,Hyderabad,Salaried,68100.0,1358,9679380714
+C0047,Ekapad Walia,29,Hyderabad,Gig worker,22600.0,1111,9305592824
+C0048,Kabir Soman,36,Hyderabad,Salaried,36400.0,1641,9589100061
+C0049,Alka Wable,29,Hyderabad,Salaried,53300.0,741,9313174542
+C0050,Siddharth Zacharia,33,Delhi,Shopkeeper,12000.0,1370,9824156673
+C0051,Devika Rastogi,61,Lucknow,Engineer,63700.0,580,9771566931
+C0052,Raksha Varughese,46,Delhi,Gig worker,21000.0,3257,9445498898
+C0053,Jai Kota,31,Pune,Salaried,44900.0,1516,9371606890
+C0054,Devansh Nigam,41,Delhi,Salaried,43000.0,1395,9890122398
+C0055,Victor Kannan,51,Ahmedabad,Gig worker,65400.0,616,9914156146
+C0056,Ekavir Bhargava,41,Kolkata,Self-employed,50100.0,2078,9540423276
+C0057,Ekansh Balay,33,Hyderabad,Teacher,12000.0,276,9217818890
+C0058,Ekavir Varkey,58,Hyderabad,Shopkeeper,25700.0,2497,9688064330
+C0059,Arya Sunder,61,Kolkata,Salaried,40700.0,2206,9400846070
+C0060,Kevin Solanki,51,Mumbai,Teacher,34500.0,2419,9377545759
+C0061,Urvashi Ray,23,Jaipur,Engineer,48200.0,2974,9478820529
+C0062,Girindra Chatterjee,50,Chennai,Salaried,56400.0,1443,9289767517
+C0063,Irya Sampath,64,Kolkata,Salaried,51500.0,3487,9248978351
+C0064,Unni Bhagat,37,Kolkata,Shopkeeper,34100.0,3969,9906007470
+C0065,Darsh Rau,31,Delhi,Shopkeeper,15100.0,3707,9117259108
+C0066,Ikbal Kothari,50,Delhi,Salaried,30300.0,3761,9546088576
+C0067,Ranveer Yadav,26,Kolkata,Salaried,46800.0,2238,9908979490
+C0068,Logan Sami,31,Kolkata,Engineer,22000.0,1810,9503476646
+C0069,Arya Shere,41,Lucknow,Teacher,52100.0,3501,9811371941
+C0070,Faqid Savant,53,Bengaluru,Self-employed,59800.0,3484,9352180814
+C0071,Chandresh Zachariah,35,Jaipur,Salaried,40500.0,625,9788599489
+C0072,Girik Khalsa,33,Jaipur,Gig worker,12000.0,3991,9572429885
+C0073,Niharika Sunder,60,Lucknow,Salaried,20100.0,3985,9771221232
+C0074,Tanay Rattan,25,Delhi,Salaried,97600.0,261,9421838389
+C0075,Nitesh Raghavan,65,Chennai,Salaried,28900.0,2076,9297193936
+C0076,Madhavi Lanka,59,Delhi,Engineer,14100.0,1894,9705820845
+C0077,Bhavika Sampath,41,Jaipur,Gig worker,70500.0,3191,9514356028
+C0078,Mohammed Gupta,21,Mumbai,Self-employed,38300.0,1710,9814927033
+C0079,Teerth Bhardwaj,39,Lucknow,Salaried,66000.0,1662,9780676402
+C0080,Dipta Bhandari,26,Pune,Engineer,43600.0,2438,9800262048
+C0081,Vansha Thakkar,44,Lucknow,Shopkeeper,47800.0,3903,9209813438
+C0082,Dakshesh Trivedi,47,Mumbai,Salaried,45600.0,1341,9681529874
+C0083,Quincy Biswas,40,Lucknow,Salaried,53900.0,2545,9982278385
+C0084,Wahab Raval,32,Jaipur,Salaried,118700.0,2265,9472419828
+C0085,Yatin Baral,64,Jaipur,Shopkeeper,61700.0,3432,9760010363
+C0086,Oni Virk,22,Hyderabad,Salaried,17200.0,2951,9970050212
+C0087,Advika Jayaraman,51,Lucknow,Salaried,47500.0,3976,9595683002
+C0088,William Lanka,51,Jaipur,Teacher,67200.0,1405,9650287211
+C0089,Karan Mital,50,Lucknow,Self-employed,69300.0,2106,9552842965
+C0090,Diya Bora,26,Delhi,Salaried,30700.0,2731,9476973641
+C0091,Tara Chaudhry,59,Jaipur,Salaried,68000.0,580,9429495095
+C0092,Tanay Toor,62,Delhi,Salaried,60400.0,312,9472298022
+C0093,Kevin Palla,65,Kolkata,Self-employed,137500.0,748,9419967116
+C0094,Yash Pingle,44,Bengaluru,Teacher,26100.0,3924,9285347818
+C0095,Nakul Sarma,32,Mumbai,Teacher,29500.0,1954,9297266371
+C0096,Abhiram Mistry,24,Chennai,Teacher,32600.0,1093,9101467762
+C0097,Krish Lalla,42,Kolkata,Salaried,29700.0,1151,9238863062
+C0098,Hredhaan Dugal,54,Lucknow,Engineer,24400.0,2169,9751696514
+C0099,Baghyawati Kade,38,Delhi,Salaried,12000.0,2874,9682606961
+C0100,Samar Lalla,65,Ahmedabad,Salaried,30600.0,236,9888525959
+C0101,Zayan Behl,57,Delhi,Salaried,45700.0,2341,9694525307
+C0102,Pallavi Malhotra,65,Jaipur,Salaried,29700.0,341,9598385884
+C0103,Aarush Nath,62,Hyderabad,Gig worker,100000.0,1353,9177641864
+C0104,Adweta Edwin,60,Lucknow,Salaried,38300.0,2874,9427775238
+C0105,Prisha Andra,40,Lucknow,Engineer,72500.0,924,9376848890
+C0106,Faqid Dixit,57,Ahmedabad,Salaried,43300.0,3367,9540306160
+C0107,Kala Divan,47,Delhi,Teacher,57400.0,2776,9696434563
+C0108,Joshua Barman,56,Ahmedabad,Engineer,43700.0,3030,9983136025
+C0109,Janya Baral,51,Kolkata,Gig worker,75300.0,3122,9555182450
+C0110,Shivansh Krish,40,Ahmedabad,Salaried,39100.0,2646,9265896995
+C0111,Irya Ray,60,Lucknow,Salaried,48700.0,3512,9547064002
+C0112,Warjas Gaba,64,Jaipur,Salaried,45600.0,970,9463238103
+C0113,Nitara Bakshi,30,Mumbai,Shopkeeper,32900.0,3502,9491149324
+C0114,Gaurangi Sabharwal,30,Mumbai,Shopkeeper,46500.0,1459,9111337839
+C0115,Amara Dutta,38,Chennai,Gig worker,116100.0,1487,9987931068
+C0116,Lavanya Barad,37,Kolkata,Salaried,33200.0,2859,9771116049
+C0117,Tristan Iyengar,35,Ahmedabad,Engineer,46900.0,3599,9296018501
+C0118,Inaya Mody,53,Mumbai,Salaried,71300.0,3898,9487722787
+C0119,Udant Bajwa,34,Delhi,Teacher,67200.0,2941,9520316521
+C0120,Mohini Narasimhan,57,Pune,Gig worker,38200.0,1289,9624002774
+C0121,Ekaraj Mallick,27,Chennai,Gig worker,12000.0,2314,9501937020
+C0122,Yashodhara Ratta,49,Hyderabad,Salaried,49200.0,1018,9944749603
+C0123,Ayaan D’Alia,54,Kolkata,Shopkeeper,12500.0,3618,9555823812
+C0124,Pranav Lanka,25,Kolkata,Gig worker,79200.0,1253,9864515636
+C0125,Ikbal Saraf,60,Pune,Self-employed,41400.0,941,9338519175
+C0126,Dipta Sarin,37,Bengaluru,Salaried,62600.0,1899,9661207589
+C0127,Lekha Gupta,35,Hyderabad,Salaried,24200.0,2874,9683661068
+C0128,Chaitanya Sarin,64,Delhi,Engineer,17500.0,1493,9720776769
+C0129,Zinal Yohannan,28,Mumbai,Shopkeeper,43300.0,1039,9592447024
+C0130,Januja Sankar,30,Mumbai,Salaried,37400.0,260,9526390976
+C0131,Ganga Murthy,40,Delhi,Salaried,29700.0,1237,9614188334
+C0132,Charita Tripathi,65,Kolkata,Shopkeeper,39600.0,930,9293568227
+C0133,Nilima Narain,54,Pune,Engineer,151600.0,1962,9280739010
+C0134,Chakrika Datta,58,Hyderabad,Engineer,57700.0,1918,9213617292
+C0135,Osha Raghavan,51,Mumbai,Teacher,64200.0,1783,9812376494
+C0136,Charvi Ravi,60,Chennai,Shopkeeper,57900.0,621,9196629264
+C0137,Daksha Mangat,65,Hyderabad,Self-employed,79600.0,791,9360097961
+C0138,Qushi Nagy,51,Lucknow,Shopkeeper,34600.0,1749,9174774497
+C0139,Riya Sathe,40,Hyderabad,Salaried,13600.0,1752,9677406781
+C0140,Yasti Solanki,57,Ahmedabad,Salaried,34600.0,1688,9887407480
+C0141,Frado Mander,52,Bengaluru,Teacher,57000.0,798,9504136991
+C0142,Girik Keer,34,Ahmedabad,Salaried,23400.0,3455,9694105870
+C0143,Umang Issac,51,Mumbai,Salaried,34800.0,623,9467982821
+C0144,Aryan Batra,26,Jaipur,Salaried,26900.0,3197,9887171870
+C0145,Vaishnavi Bora,53,Ahmedabad,Shopkeeper,80500.0,376,9407765854
+C0146,Oeshi Hayer,55,Pune,Teacher,55300.0,3142,9997218481
+C0147,Warda Ratta,35,Pune,Salaried,52600.0,1284,9352476338
+C0148,Manbir Ahluwalia,41,Chennai,Engineer,51900.0,3140,9524461432
+C0149,Pavani Kanda,53,Bengaluru,Self-employed,37300.0,2962,9815085944
+C0150,Zarna Shetty,59,Chennai,Self-employed,41900.0,1654,9477593772
+C0151,Zaid Dara,39,Mumbai,Self-employed,21000.0,1101,9572419341
+C0152,Kiaan Shetty,60,Jaipur,Self-employed,12700.0,3914,9982202735
+C0153,Saanvi Thaman,40,Jaipur,Salaried,41000.0,3538,9436231905
+C0154,Sanaya Dutt,32,Mumbai,Engineer,44700.0,1328,9177802671
+C0155,Shivani Lad,43,Chennai,Self-employed,69600.0,835,9166478818
+C0156,Aradhana Verma,36,Chennai,Engineer,83400.0,1957,9321334885
+C0157,William Maharaj,32,Kolkata,Self-employed,83300.0,3624,9495794168
+C0158,Faras Mangal,46,Delhi,Salaried,23100.0,3430,9410289574
+C0159,Anita Nayak,39,Hyderabad,Salaried,31900.0,2125,9411558908
+C0160,Faris Devi,27,Chennai,Self-employed,48300.0,908,9588760025
+C0161,Vihaan Rajagopal,54,Bengaluru,Shopkeeper,134800.0,2527,9795774612
+C0162,Tanish Bhatt,24,Jaipur,Salaried,79600.0,2898,9823849149
+C0163,Nikita Narayanan,32,Bengaluru,Salaried,66500.0,2499,9796629627
+C0164,Ojasvi Bhatia,39,Mumbai,Salaried,31300.0,1730,9211617382
+C0165,Osha Ramachandran,36,Kolkata,Salaried,24400.0,3561,9918371183
+C0166,Lajita Sood,38,Jaipur,Engineer,56400.0,2790,9267837724
+C0167,Indira Misra,23,Pune,Salaried,21900.0,1310,9674505967
+C0168,Oni Yohannan,47,Bengaluru,Salaried,33700.0,1057,9509322185
+C0169,Vinaya Kanda,56,Pune,Salaried,35900.0,2295,9164428571
+C0170,Rajata Sunder,31,Delhi,Gig worker,84300.0,1884,9655415719
+C0171,Lopa Nayar,38,Lucknow,Shopkeeper,31800.0,621,9928109811
+C0172,Noah Sibal,29,Bengaluru,Gig worker,12000.0,311,9275134622
+C0173,Avi Ramesh,42,Lucknow,Shopkeeper,48900.0,1006,9590402488
+C0174,Fiyaz Sangha,42,Chennai,Teacher,26800.0,3959,9464716444
+C0175,Triya Gopal,23,Ahmedabad,Shopkeeper,38800.0,1424,9551495657
+C0176,Abha Raghavan,59,Hyderabad,Self-employed,36400.0,3703,9845924644
+C0177,Siddharth Sha,43,Mumbai,Self-employed,33100.0,2770,9345239732
+C0178,Geetika Raghavan,45,Kolkata,Salaried,56400.0,2364,9763802550
+C0179,Oviya Krishnan,30,Hyderabad,Teacher,17700.0,368,9679678171
+C0180,Upma Bahl,32,Pune,Teacher,29300.0,216,9954791927
+C0181,Inaya Kapur,21,Jaipur,Salaried,53500.0,2057,9173727895
+C0182,Banjeet Balasubramanian,54,Bengaluru,Engineer,28000.0,2690,9596161110
+C0183,Ryan Bahri,34,Kolkata,Shopkeeper,17000.0,3707,9924671830
+C0184,William Date,30,Hyderabad,Self-employed,53100.0,3874,9955076792
+C0185,Ishwar Kamdar,60,Mumbai,Salaried,66600.0,2902,9774636621
+C0186,Aahana Pillay,36,Mumbai,Salaried,37200.0,2801,9508752563
+C0187,Ishwar Gade,43,Lucknow,Salaried,14300.0,3067,9346806839
+C0188,Hritik Bal,62,Ahmedabad,Gig worker,54100.0,1400,9309863362
+C0189,Keya Ranganathan,29,Ahmedabad,Salaried,16600.0,1896,9711262710
+C0190,Faqid Kibe,58,Hyderabad,Engineer,44300.0,2353,9493166806
+C0191,Charvi Dara,28,Bengaluru,Self-employed,24400.0,375,9384725563
+C0192,Idika Walia,41,Chennai,Engineer,21300.0,3877,9171582316
+C0193,Kamala Biswas,39,Jaipur,Gig worker,30500.0,1939,9492621868
+C0194,Advik Salvi,39,Hyderabad,Salaried,34700.0,2166,9285280967
+C0195,Hitesh Sant,51,Lucknow,Gig worker,27500.0,1672,9946549898
+C0196,Tripti Dua,50,Chennai,Salaried,51000.0,260,9299337928
+C0197,Patrick Vig,31,Jaipur,Gig worker,30400.0,3999,9586514666
+C0198,Veda Shroff,61,Hyderabad,Salaried,62000.0,2915,9504483792
+C0199,Amrita Naidu,33,Chennai,Teacher,43700.0,1627,9733629045
+C0200,Gabriel Mallick,65,Chennai,Salaried,26800.0,1728,9854435641
+C0201,Yagnesh Shetty,29,Ahmedabad,Self-employed,24600.0,3398,9808134662
+C0202,Gayathri Balakrishnan,56,Ahmedabad,Salaried,16700.0,2455,9189103939
+C0203,Ekta Gopal,34,Delhi,Teacher,43900.0,2509,9766131587
+C0204,Simon Pant,28,Pune,Teacher,31800.0,3340,9897108747
+C0205,Harini Mammen,24,Chennai,Salaried,12000.0,3310,9210673695
+C0206,Advaith Varughese,57,Mumbai,Salaried,29100.0,3539,9494930877
+C0207,Frederick Khurana,40,Kolkata,Salaried,24200.0,2825,9486167604
+C0208,Vrinda Khosla,33,Pune,Salaried,83500.0,1345,9632303421
+C0209,Vritti Sem,27,Mumbai,Teacher,16200.0,1827,9222943962
+C0210,Girik Menon,54,Jaipur,Salaried,18500.0,966,9433310921
+C0211,Nidhi Kohli,53,Delhi,Engineer,66200.0,1413,9212793408
+C0212,Jyoti Solanki,59,Delhi,Salaried,74900.0,3808,9567609682
+C0213,Pavani Narayanan,41,Kolkata,Teacher,26200.0,2531,9120934395
+C0214,Sudiksha Madan,45,Bengaluru,Engineer,27700.0,2120,9211391987
+C0215,Zayan Kashyap,60,Bengaluru,Salaried,51700.0,3757,9797672187
+C0216,Reyansh Mutti,59,Kolkata,Shopkeeper,12000.0,638,9639977167
+C0217,Qasim Handa,34,Pune,Salaried,15000.0,979,9498274828
+C0218,Veda Malhotra,62,Kolkata,Salaried,33000.0,1846,9576850386
+C0219,Harish Hari,32,Hyderabad,Teacher,82500.0,1124,9626023985
+C0220,Utkarsh Patel,52,Hyderabad,Salaried,30600.0,2306,9813912380
+C0221,Chasmum Atwal,30,Hyderabad,Teacher,40000.0,1421,9448750481
+C0222,Anusha Bath,60,Pune,Gig worker,67000.0,768,9933380406
+C0223,Brinda Date,47,Jaipur,Gig worker,109000.0,1550,9406270579
+C0224,Harshil Arora,52,Lucknow,Salaried,28500.0,3412,9847003128
+C0225,Upasna Srinivas,25,Mumbai,Teacher,37700.0,3402,9454451280
+C0226,Harini Gour,49,Ahmedabad,Salaried,94500.0,1055,9992456738
+C0227,Zayyan Sridhar,33,Chennai,Self-employed,17800.0,2188,9341843633
+C0228,Dhruv Rattan,51,Kolkata,Salaried,63500.0,2027,9298790951
+C0229,Ethan Bera,65,Hyderabad,Gig worker,22800.0,3577,9740846806
+C0230,Manthan Modi,43,Kolkata,Salaried,40000.0,3583,9895690656
+C0231,Yuvraj Dani,60,Mumbai,Teacher,33700.0,3960,9614946972
+C0232,Upkaar Virk,36,Lucknow,Gig worker,23500.0,662,9324346739
+C0233,Shravya Savant,51,Chennai,Salaried,23200.0,3236,9208519696
+C0234,Pushti Mody,30,Chennai,Salaried,43600.0,1672,9918956990
+C0235,Hardik Johal,63,Lucknow,Salaried,62500.0,446,9773944300
+C0236,Aishani Bumb,26,Kolkata,Gig worker,35600.0,3697,9191736888
+C0237,Wriddhish Ghose,39,Ahmedabad,Self-employed,39400.0,2700,9755564655
+C0238,Naksh Agate,33,Hyderabad,Shopkeeper,50600.0,2711,9526943919
+C0239,Shravya Singhal,29,Pune,Engineer,23400.0,1021,9690672358
+C0240,Bachittar Kata,42,Pune,Teacher,55000.0,1576,9358022822
+C0241,Barkha Setty,44,Jaipur,Engineer,57200.0,2593,9342321162
+C0242,Vivaan Lalla,32,Chennai,Teacher,139700.0,2654,9238361751
+C0243,Pavani Contractor,56,Pune,Shopkeeper,31500.0,2952,9984648749
+C0244,Manthan Lata,49,Hyderabad,Salaried,30200.0,1714,9872508404
+C0245,Ekbal Bhasin,38,Delhi,Salaried,55800.0,2461,9666198797
+C0246,Damyanti Mani,65,Ahmedabad,Gig worker,57200.0,2307,9820604637
+C0247,Jeet Sidhu,23,Hyderabad,Self-employed,29100.0,3175,9820320491
+C0248,Neha Magar,50,Kolkata,Teacher,31100.0,2404,9305030035
+C0249,Raksha Buch,33,Jaipur,Gig worker,49800.0,1104,9982576247
+C0250,Rachana Naidu,49,Bengaluru,Shopkeeper,25100.0,1099,9489217771
+C0251,Atharv Chand,59,Hyderabad,Salaried,30900.0,504,9743176144
+C0252,Ansh Luthra,31,Mumbai,Teacher,39700.0,804,9157828708
+C0253,Parth Singhal,42,Hyderabad,Salaried,62500.0,1002,9312092159
+C0254,Arunima Golla,36,Delhi,Salaried,28100.0,1607,9117913324
+C0255,Vyanjana Chand,35,Hyderabad,Salaried,15100.0,2547,9659109860
+C0256,Ijaya Rege,46,Kolkata,Engineer,14600.0,469,9251944834
+C0257,Ekani Cheema,35,Kolkata,Engineer,20200.0,3690,9623950361
+C0258,Forum Sabharwal,39,Chennai,Salaried,19700.0,1967,9561560954
+C0259,Bhavya Rattan,30,Jaipur,Engineer,35200.0,1347,9922604234
+C0260,Suhani Chakrabarti,25,Ahmedabad,Engineer,21000.0,1050,9685148911
+C0261,Zayyan Naik,34,Jaipur,Salaried,26700.0,1130,9376481020
+C0262,Netra Varkey,29,Pune,Gig worker,25800.0,2605,9270681743
+C0263,Turvi Sachdev,30,Ahmedabad,Salaried,30500.0,591,9508589193
+C0264,Raghav Vasa,21,Pune,Engineer,73600.0,1216,9733392826
+C0265,Wishi Sathe,43,Pune,Teacher,52900.0,2462,9301189690
+C0266,Samar Loke,62,Mumbai,Shopkeeper,38300.0,1990,9997069315
+C0267,Bhavna Sarma,36,Hyderabad,Gig worker,30200.0,1487,9568304662
+C0268,Jairaj Balakrishnan,50,Bengaluru,Engineer,30600.0,2627,9249972528
+C0269,Nathan Mukhopadhyay,63,Delhi,Teacher,44800.0,1870,9688428359
+C0270,Nikita Chander,55,Kolkata,Teacher,50900.0,3395,9731693548
+C0271,Ishaan Shenoy,57,Chennai,Salaried,24100.0,1092,9650896485
+C0272,Mitesh Tara,44,Delhi,Salaried,38700.0,3876,9779480546
+C0273,Yashodhara Mahajan,29,Delhi,Salaried,13800.0,3456,9555890300
+C0274,Vasudha Sodhi,56,Chennai,Self-employed,42200.0,2483,9963035836
+C0275,Tanmayi Dhillon,40,Hyderabad,Shopkeeper,55600.0,1614,9855940684
+C0276,Rayaan Trivedi,45,Lucknow,Self-employed,33000.0,2592,9390955028
+C0277,Ekaraj Majumdar,49,Pune,Gig worker,94200.0,3197,9491395738
+C0278,Harini Tripathi,40,Pune,Teacher,24500.0,2449,9564798278
+C0279,Aarnav Mandal,22,Mumbai,Salaried,42400.0,3430,9866477643
+C0280,Vrishti Dixit,24,Delhi,Engineer,37300.0,2194,9378033564
+C0281,Veda Pai,48,Bengaluru,Salaried,36100.0,1596,9906157754
+C0282,Krishna Shah,55,Mumbai,Gig worker,35900.0,3561,9956455996
+C0283,Ranbir Khare,55,Mumbai,Salaried,40100.0,1030,9235669749
+C0284,Vivaan Roy,28,Pune,Gig worker,58100.0,1712,9478734425
+C0285,Eesha Solanki,32,Mumbai,Shopkeeper,75700.0,2476,9306687102
+C0286,Libni Doshi,57,Lucknow,Shopkeeper,38000.0,804,9675972662
+C0287,Balhaar Date,65,Lucknow,Salaried,57100.0,3593,9602707659
+C0288,Harish Sarraf,55,Mumbai,Gig worker,26800.0,3303,9593653151
+C0289,Tanmayi Aurora,33,Delhi,Gig worker,55700.0,2872,9594670429
+C0290,Nimrat Dubey,65,Kolkata,Gig worker,26000.0,410,9602737590
+C0291,Upasna Lanka,28,Jaipur,Salaried,65600.0,3645,9371846133
+C0292,Mitali Buch,40,Mumbai,Salaried,114800.0,3703,9355318484
+C0293,Lajita Nadig,44,Ahmedabad,Gig worker,35700.0,358,9421739357
+C0294,Balendra Biswas,38,Bengaluru,Salaried,12700.0,2112,9439337359
+C0295,Bhavna Karan,34,Chennai,Salaried,28900.0,1069,9507475786
+C0296,Radha Chaudhari,63,Hyderabad,Gig worker,70400.0,3940,9652250122
+C0297,Sachi Ganesan,31,Pune,Self-employed,50100.0,2004,9234560565
+C0298,Ayush Batra,25,Pune,Shopkeeper,43000.0,2925,9857546583
+C0299,Daksh Memon,28,Chennai,Gig worker,62900.0,1850,9423812368
+C0300,Kavya Sankar,23,Lucknow,Shopkeeper,48400.0,507,9472242826
+C0301,Yash Wali,44,Jaipur,Shopkeeper,69900.0,1781,9774030854
+C0302,Pranit Garde,63,Lucknow,Salaried,60200.0,3306,9471007584
+C0303,Farhan Raja,21,Jaipur,Engineer,81300.0,1505,9120352237
+C0304,Widisha Dhar,46,Delhi,Teacher,45500.0,3623,9679116010
+C0305,Triya Kumar,48,Lucknow,Shopkeeper,59800.0,3474,9308281331
+C0306,Aadhya Andra,46,Lucknow,Salaried,32600.0,2765,9120520222
+C0307,Bhavna Dugar,60,Kolkata,Teacher,28100.0,3336,9296900420
+C0308,Riya Pai,41,Lucknow,Salaried,89200.0,3325,9359273865
+C0309,Panini Krishna,46,Hyderabad,Teacher,42300.0,3379,9414079853
+C0310,Chasmum Issac,28,Chennai,Gig worker,56800.0,3051,9778031752
+C0311,Vasudha Chhabra,36,Ahmedabad,Salaried,40400.0,643,9933752470
+C0312,Lakshmi Parmer,29,Kolkata,Engineer,28300.0,3113,9953959917
+C0313,Chakrika Bains,23,Chennai,Gig worker,38200.0,2845,9660366706
+C0314,Anvi Anand,46,Pune,Salaried,77900.0,1840,9333691727
+C0315,Watika Mangat,45,Jaipur,Gig worker,50200.0,2415,9137675372
+C0316,Indira Kanda,50,Chennai,Salaried,16100.0,1012,9802669257
+C0317,Zashil Devan,62,Hyderabad,Shopkeeper,34100.0,884,9369682206
+C0318,Balveer More,62,Mumbai,Teacher,92600.0,1034,9398059811
+C0319,Bahadurjit Patla,42,Pune,Engineer,34100.0,3896,9550032593
+C0320,Gautam Merchant,44,Delhi,Salaried,15400.0,351,9870984205
+C0321,Ojasvi Gill,31,Pune,Engineer,97900.0,2910,9659332501
+C0322,Kevin Zacharia,22,Hyderabad,Gig worker,53500.0,1412,9936482864
+C0323,Yachana Mahajan,32,Pune,Salaried,36700.0,3372,9169993312
+C0324,Aarini Subramaniam,61,Jaipur,Self-employed,31600.0,2417,9904860342
+C0325,Hamsini Contractor,55,Bengaluru,Salaried,65300.0,2702,9231226965
+C0326,Faqid Dhaliwal,24,Ahmedabad,Self-employed,29000.0,2673,9295598621
+C0327,Mekhala Pau,25,Delhi,Salaried,67500.0,214,9478050311
+C0328,Megha Atwal,35,Hyderabad,Gig worker,49800.0,1372,9509707312
+C0329,Jatin Sha,24,Pune,Shopkeeper,42900.0,3966,9537228061
+C0330,Adweta Raj,63,Hyderabad,Salaried,40900.0,3498,9473596683
+C0331,Hritik Kaur,48,Kolkata,Salaried,34800.0,2987,9551176730
+C0332,Aryan Narang,37,Bengaluru,Teacher,64100.0,1147,9211735011
+C0333,Dev Shetty,60,Pune,Teacher,24700.0,2922,9854504915
+C0334,Nilima Dada,49,Jaipur,Engineer,16900.0,3784,9142171320
+C0335,Chakradev Barad,54,Mumbai,Shopkeeper,51700.0,384,9322095564
+C0336,Waida D’Alia,29,Kolkata,Salaried,52100.0,264,9553789271
+C0337,Wahab Yogi,64,Hyderabad,Self-employed,48300.0,2699,9596627744
+C0338,Lipika Setty,38,Hyderabad,Salaried,46600.0,1129,9706502038
+C0339,Oni Dubey,36,Delhi,Salaried,32400.0,3491,9396619449
+C0340,Hardik Suri,22,Jaipur,Gig worker,56300.0,1915,9382351958
+C0341,Ati Bali,46,Jaipur,Gig worker,37100.0,990,9713449763
+C0342,Teerth Sawhney,54,Mumbai,Salaried,29800.0,2764,9207082220
+C0343,Warinder Patil,60,Mumbai,Shopkeeper,32500.0,2751,9498746799
+C0344,Jhalak Parmer,33,Pune,Teacher,104400.0,3062,9287792735
+C0345,Mitali Majumdar,45,Ahmedabad,Salaried,16000.0,2834,9254942096
+C0346,Jason Sha,58,Mumbai,Salaried,48800.0,1944,9433590821
+C0347,Simon Bail,28,Kolkata,Salaried,16400.0,3937,9146879897
+C0348,Gauri Kohli,36,Ahmedabad,Salaried,36000.0,477,9769525159
+C0349,Samesh Biswas,24,Lucknow,Self-employed,30600.0,3503,9320590253
+C0350,Tarak Kaul,27,Ahmedabad,Engineer,13400.0,3661,9387899128
+C0351,Manbir Agate,39,Hyderabad,Self-employed,46200.0,1122,9437602287
+C0352,Maanav De,48,Delhi,Salaried,31400.0,1312,9163289631
+C0353,Owen Choudhary,26,Chennai,Salaried,13300.0,1510,9604775415
+C0354,Karan Aurora,60,Delhi,Self-employed,57800.0,591,9532462343
+C0355,Wazir Naik,56,Chennai,Shopkeeper,77900.0,723,9104004122
+C0356,Owen Lanka,37,Mumbai,Salaried,80000.0,1096,9977488068
+C0357,Jonathan Sama,57,Delhi,Shopkeeper,45500.0,979,9465349957
+C0358,Devansh Soni,35,Chennai,Engineer,38900.0,2907,9634633998
+C0359,Janaki Varghese,49,Jaipur,Salaried,73800.0,1703,9196920209
+C0360,Siya Thakur,52,Chennai,Teacher,88100.0,2346,9346269255
+C0361,Caleb Verma,27,Ahmedabad,Salaried,67000.0,616,9375348696
+C0362,Tara Balasubramanian,61,Bengaluru,Shopkeeper,23700.0,1950,9875634092
+C0363,Varenya Ratti,50,Delhi,Gig worker,42000.0,1784,9281310905
+C0364,Hritik Swaminathan,45,Mumbai,Teacher,47300.0,3323,9183291632
+C0365,Ethan Buch,42,Kolkata,Salaried,15400.0,1679,9332309349
+C0366,Manbir Bhatti,22,Lucknow,Self-employed,48100.0,3056,9628367749
+C0367,Anvi Nair,60,Ahmedabad,Gig worker,118400.0,1538,9480615340
+C0368,Chaitaly Setty,58,Chennai,Gig worker,52300.0,937,9991058632
+C0369,Hardik Contractor,50,Pune,Gig worker,79400.0,1724,9239377970
+C0370,Qushi Seth,60,Lucknow,Engineer,41600.0,1600,9144764888
+C0371,Odika Nori,53,Pune,Shopkeeper,36600.0,3505,9925260927
+C0372,Mohini Sagar,27,Chennai,Self-employed,46000.0,3834,9691577734
+C0373,Dhriti Sane,60,Hyderabad,Engineer,25300.0,3438,9470455630
+C0374,Aadhya Prasad,38,Ahmedabad,Engineer,23500.0,3685,9619605102
+C0375,Urvi Bhavsar,62,Jaipur,Teacher,71600.0,875,9758254520
+C0376,Frederick Chander,55,Ahmedabad,Salaried,75500.0,1350,9972531919
+C0377,Gopal Pradhan,65,Mumbai,Self-employed,23200.0,3802,9804848085
+C0378,Darpan Narayan,26,Mumbai,Engineer,61700.0,2508,9599342860
+C0379,Nirja Pandya,59,Pune,Gig worker,36400.0,2512,9765881539
+C0380,Charan Mani,35,Kolkata,Self-employed,45000.0,2259,9454288417
+C0381,Indira Chawla,51,Ahmedabad,Engineer,47800.0,3957,9353756349
+C0382,Mohammed Subramaniam,65,Kolkata,Salaried,62500.0,1405,9336062044
+C0383,Hritik Palla,58,Delhi,Teacher,39600.0,2305,9166125341
+C0384,Ishwar Mallick,48,Jaipur,Teacher,76900.0,2208,9401901333
+C0385,Pushti Bal,28,Delhi,Salaried,44400.0,2602,9133890728
+C0386,Ayush Gole,65,Hyderabad,Salaried,51900.0,3856,9353590261
+C0387,Dayamai Nori,38,Chennai,Shopkeeper,25100.0,1153,9975584183
+C0388,Abeer Golla,36,Bengaluru,Teacher,111800.0,2836,9220660248
+C0389,Nandini Boase,38,Hyderabad,Salaried,48100.0,498,9926148251
+C0390,Azaan Chand,22,Chennai,Engineer,54300.0,1446,9545295533
+C0391,Krisha Saini,24,Jaipur,Teacher,17000.0,3436,9137037879
+C0392,Harita Dugar,36,Mumbai,Gig worker,25200.0,756,9642047369
+C0393,Devika Nair,32,Ahmedabad,Engineer,70600.0,1863,9231856419
+C0394,Charles Dugal,36,Hyderabad,Engineer,43900.0,1195,9768312155
+C0395,Chandran Bumb,33,Bengaluru,Self-employed,14600.0,811,9464189991
+C0396,Saanvi Samra,37,Bengaluru,Engineer,63900.0,1460,9725557050
+C0397,Riya Sachdeva,53,Kolkata,Salaried,29000.0,3351,9312896418
+C0398,Tanveer Vala,33,Lucknow,Salaried,77000.0,2848,9138105505
+C0399,Hemani Sani,48,Lucknow,Teacher,36400.0,2413,9864126507
+C0400,Bhanumati Sur,34,Pune,Salaried,42100.0,2853,9751068552
+C0401,Chakradev Kannan,54,Jaipur,Salaried,68500.0,2731,9786996584
+C0402,Christopher Amble,30,Chennai,Shopkeeper,24300.0,1776,9663855407
+C0403,Charvi Kakar,50,Jaipur,Shopkeeper,23100.0,1323,9935476419
+C0404,Aadhya Mann,49,Hyderabad,Salaried,34400.0,1783,9686462792
+C0405,Jagdish Amble,37,Bengaluru,Engineer,57500.0,1778,9680144805
+C0406,Qushi Gill,22,Delhi,Engineer,19500.0,740,9816221904
+C0407,Lajita Walia,61,Chennai,Shopkeeper,16500.0,1823,9956649203
+C0408,Xiti Pandya,31,Chennai,Self-employed,57400.0,3179,9139346416
+C0409,Mekhala Basak,58,Delhi,Salaried,28100.0,2465,9230803939
+C0410,Anirudh Sharaf,43,Ahmedabad,Engineer,31200.0,314,9637602326
+C0411,Dhriti Sanghvi,24,Kolkata,Gig worker,15000.0,2790,9330064969
+C0412,Omisha Mann,54,Jaipur,Salaried,27100.0,1022,9627724133
+C0413,Nidhi Bail,58,Bengaluru,Salaried,37900.0,3269,9727035425
+C0414,Onveer Sharma,61,Jaipur,Shopkeeper,60500.0,917,9344744038
+C0415,Gaurang Sarkar,31,Delhi,Engineer,25800.0,2714,9177399074
+C0416,Yagnesh Sarin,29,Mumbai,Self-employed,87000.0,1931,9360092966
+C0417,Farhan Randhawa,62,Bengaluru,Gig worker,27000.0,1864,9448910063
+C0418,Harinakshi Kant,58,Ahmedabad,Salaried,27000.0,1962,9207240323
+C0419,Om Bose,40,Kolkata,Self-employed,82000.0,1374,9380962065
+C0420,Yashvi Hari,34,Pune,Salaried,42200.0,2813,9186403750
+C0421,Indali Divan,22,Hyderabad,Teacher,28800.0,1183,9281084048
+C0422,Harshil Dhingra,49,Pune,Teacher,35200.0,756,9209001284
+C0423,Rudra Ghose,45,Pune,Teacher,74700.0,2123,9419190018
+C0424,Faqid Goel,28,Mumbai,Engineer,79100.0,1060,9552202231
+C0425,Ucchal Sen,57,Lucknow,Salaried,25300.0,616,9797232333
+C0426,Diya Dora,51,Pune,Gig worker,37200.0,917,9730613961
+C0427,Ekansh Singh,53,Bengaluru,Self-employed,39800.0,1469,9214579107
+C0428,Chavvi Maharaj,64,Chennai,Salaried,23200.0,368,9418066278
+C0429,Indira Tripathi,65,Pune,Shopkeeper,37000.0,2059,9787561102
+C0430,Dayita Shenoy,56,Delhi,Salaried,38100.0,3705,9219364141
+C0431,Baljiwan Bhandari,50,Ahmedabad,Shopkeeper,67200.0,1326,9835650583
+C0432,Bhavini Bose,50,Ahmedabad,Salaried,69500.0,2483,9122040925
+C0433,Yashica Rajagopalan,37,Delhi,Self-employed,32200.0,3282,9692229079
+C0434,Benjamin Sengupta,35,Chennai,Salaried,34100.0,2980,9339588330
+C0435,Ekanta Soni,25,Hyderabad,Engineer,53000.0,2013,9283769775
+C0436,David Seshadri,23,Ahmedabad,Engineer,28400.0,791,9216247776
+C0437,Hemal Chad,37,Lucknow,Salaried,51000.0,3311,9764883477
+C0438,Balveer Kota,33,Ahmedabad,Self-employed,36400.0,1228,9462698370
+C0439,Reva Viswanathan,36,Jaipur,Gig worker,23400.0,2722,9501040026
+C0440,Januja Pradhan,23,Delhi,Salaried,23600.0,2382,9562262349
+C0441,Lila Rege,54,Lucknow,Salaried,78300.0,3837,9938490275
+C0442,Charles Natt,48,Hyderabad,Salaried,35100.0,877,9116796683
+C0443,Forum Chandra,50,Chennai,Salaried,86300.0,708,9157180013
+C0444,Bhanumati Krishnan,49,Kolkata,Teacher,29400.0,620,9137222311
+C0445,Gauri Bumb,25,Jaipur,Teacher,44000.0,1320,9149682009
+C0446,Inaya Mukherjee,35,Lucknow,Salaried,125700.0,3225,9517000165
+C0447,Kai Chad,27,Ahmedabad,Gig worker,22400.0,2751,9186962941
+C0448,Krisha Narasimhan,37,Kolkata,Teacher,14700.0,439,9950032770
+C0449,Girik Sampath,56,Bengaluru,Shopkeeper,72300.0,2794,9151250752
+C0450,Andrew Patil,26,Ahmedabad,Salaried,25100.0,567,9505854683
+C0451,Pranit Kala,44,Hyderabad,Teacher,37600.0,3995,9783317486
+C0452,Vedika Handa,22,Delhi,Salaried,28400.0,1701,9940187155
+C0453,Laksh Dubey,37,Delhi,Shopkeeper,43500.0,1189,9921324292
+C0454,Chakrika Chaudhuri,55,Lucknow,Engineer,23600.0,744,9663562585
+C0455,Gayathri Deep,39,Kolkata,Teacher,34700.0,2103,9381349960
+C0456,Mitesh Gaba,62,Kolkata,Shopkeeper,47600.0,1101,9854432824
+C0457,Noah Sarma,35,Chennai,Engineer,23000.0,1547,9325458132
+C0458,Nirja Patla,62,Ahmedabad,Salaried,26800.0,1363,9304905456
+C0459,Sachi Mane,22,Hyderabad,Salaried,31900.0,3426,9254084447
+C0460,Vivaan Walla,49,Hyderabad,Gig worker,18600.0,628,9519897971
+C0461,Dayamai Singh,49,Pune,Engineer,30800.0,2212,9426266993
+C0462,Jhalak Sastry,22,Mumbai,Self-employed,40300.0,1720,9884363048
+C0463,Baghyawati Raja,56,Mumbai,Gig worker,31100.0,1926,9191028891
+C0464,Neel Iyengar,50,Hyderabad,Salaried,33200.0,1978,9758500814
+C0465,Zashil Ben,35,Pune,Salaried,37600.0,976,9658719215
+C0466,Kamya Chauhan,28,Chennai,Salaried,27400.0,1882,9231024422
+C0467,Bhavani Chacko,48,Hyderabad,Teacher,53700.0,1885,9357379495
+C0468,Anjali Sengupta,32,Bengaluru,Self-employed,77900.0,1915,9706169665
+C0469,Rajeshri Chand,23,Bengaluru,Engineer,30100.0,3677,9937815354
+C0470,Shravya Palla,34,Mumbai,Salaried,48400.0,701,9829504548
+C0471,Oeshi Bera,53,Pune,Self-employed,33700.0,3397,9832930552
+C0472,Yadavi Prakash,44,Lucknow,Salaried,45600.0,1771,9855650430
+C0473,Libni Bumb,37,Jaipur,Self-employed,83100.0,1331,9296950981
+C0474,Udarsh Bala,48,Chennai,Salaried,49000.0,3023,9182974109
+C0475,Hardik Nayak,64,Kolkata,Gig worker,15700.0,255,9638589341
+C0476,Laksh Barad,40,Hyderabad,Salaried,47700.0,2292,9620081774
+C0477,Urmi Dewan,34,Delhi,Shopkeeper,70400.0,2895,9790380353
+C0478,Saumya Ahluwalia,51,Mumbai,Self-employed,34000.0,3576,9359075260
+C0479,Anirudh Kunda,64,Delhi,Salaried,62500.0,1530,9655675814
+C0480,Mason Wable,28,Bengaluru,Teacher,26900.0,1281,9891103496
+C0481,Indrajit Mani,60,Pune,Gig worker,18100.0,1464,9410384995
+C0482,Charvi Dara,51,Bengaluru,Salaried,40800.0,1184,9936493683
+C0483,William Saini,32,Pune,Teacher,15800.0,584,9341612750
+C0484,Dev Choudhry,28,Ahmedabad,Shopkeeper,33700.0,3071,9322407359
+C0485,Amol Varma,48,Kolkata,Engineer,72300.0,793,9762628645
+C0486,Maanas Manne,29,Hyderabad,Shopkeeper,14600.0,435,9831817393
+C0487,Aarav Pandit,21,Kolkata,Gig worker,20000.0,1517,9876454131
+C0488,Omaja Grover,59,Pune,Salaried,22700.0,687,9196628102
+C0489,Jalsa Bir,65,Hyderabad,Teacher,36800.0,1077,9865621568
+C0490,Madhavi Singhal,53,Jaipur,Self-employed,31600.0,2853,9589646309
+C0491,Lila Prakash,38,Hyderabad,Salaried,76500.0,3820,9745041707
+C0492,Amol Parikh,41,Ahmedabad,Salaried,61200.0,2360,9162472753
+C0493,Hemani Khosla,34,Hyderabad,Self-employed,48700.0,3776,9652342434
+C0494,Gaurangi Deol,39,Chennai,Gig worker,40900.0,3206,9348877782
+C0495,Indira Nigam,47,Hyderabad,Salaried,46300.0,3668,9612855899
+C0496,Ucchal Srinivas,31,Kolkata,Teacher,24700.0,3677,9130666903
+C0497,Krishna Bhatnagar,39,Mumbai,Gig worker,58300.0,2106,9527497705
+C0498,Balhaar Memon,65,Hyderabad,Self-employed,21800.0,455,9360647500
+C0499,Caleb Iyengar,61,Chennai,Shopkeeper,57700.0,2223,9593253648
+C0500,Diya Mukherjee,40,Hyderabad,Salaried,68800.0,418,9528196934
+C0501,Urvashi Kulkarni,47,Hyderabad,Self-employed,42200.0,1317,9644240318
+C0502,Rayaan Mangal,23,Chennai,Teacher,34800.0,3179,9358204441
+C0503,Champak Narula,62,Kolkata,Self-employed,46400.0,2583,9884372791
+C0504,Jeet Pillai,31,Mumbai,Self-employed,12000.0,518,9973397788
+C0505,Mugdha Sarraf,48,Ahmedabad,Salaried,44200.0,2603,9349629301
+C0506,Harinakshi Grover,35,Hyderabad,Teacher,35900.0,823,9933887726
+C0507,Widisha Pillai,21,Lucknow,Gig worker,37100.0,1500,9761364688
+C0508,Fitan Samra,48,Jaipur,Salaried,54100.0,424,9677812967
+C0509,Qushi Gole,34,Bengaluru,Self-employed,36600.0,2955,9261794536
+C0510,Ekani Chauhan,64,Chennai,Salaried,21500.0,470,9871536956
+C0511,Falak Merchant,26,Chennai,Teacher,35400.0,2149,9336315214
+C0512,Sanaya Sandhu,25,Jaipur,Self-employed,39300.0,382,9263078409
+C0513,Sachi Panchal,46,Mumbai,Self-employed,40200.0,673,9817274252
+C0514,Brijesh Pandit,49,Jaipur,Salaried,41200.0,1627,9340854645
+C0515,Anvi Bhandari,49,Lucknow,Salaried,63900.0,3124,9622366152
+C0516,Nidra Patla,58,Delhi,Shopkeeper,22100.0,1851,9352073742
+C0517,Azaan Dhar,29,Ahmedabad,Shopkeeper,41500.0,698,9760183276
+C0518,Bakhshi Date,47,Mumbai,Salaried,72400.0,1598,9359866931
+C0519,Warinder Peri,64,Bengaluru,Teacher,16000.0,3665,9815332097
+C0520,Leela Bali,56,Mumbai,Salaried,41600.0,3175,9772052388
+C0521,Shivani Prabhakar,54,Chennai,Gig worker,28400.0,258,9361925392
+C0522,Sachi Bose,44,Mumbai,Salaried,31600.0,371,9288940881
+C0523,Jeevika Rao,65,Kolkata,Shopkeeper,24200.0,1177,9638964706
+C0524,Arya Krish,61,Pune,Teacher,34900.0,2832,9849055136
+C0525,Atharv Grewal,64,Kolkata,Gig worker,95400.0,3501,9716070905
+C0526,Zarna Ram,37,Kolkata,Gig worker,20200.0,1069,9564301360
+C0527,Adweta Lad,49,Ahmedabad,Gig worker,21200.0,826,9988880618
+C0528,Tanish Mangal,47,Bengaluru,Engineer,19800.0,1661,9433044784
+C0529,Ryan Das,58,Lucknow,Gig worker,90100.0,1617,9255977883
+C0530,Ethan Seth,54,Hyderabad,Engineer,30200.0,1798,9848823799
+C0531,Sai Chahal,21,Jaipur,Salaried,37500.0,2641,9967121549
+C0532,Idika Bhattacharyya,55,Mumbai,Shopkeeper,31100.0,1157,9591076786
+C0533,Charita Dugar,24,Mumbai,Salaried,23700.0,2230,9588605867
+C0534,Janaki Trivedi,59,Mumbai,Teacher,33800.0,222,9361988347
+C0535,Jairaj Iyer,28,Mumbai,Gig worker,129900.0,3622,9868679871
+C0536,Warjas Tak,47,Delhi,Salaried,76200.0,3329,9187491373
+C0537,Jalsa Pillay,58,Delhi,Shopkeeper,24800.0,3082,9698603824
+C0538,Kai Chadha,45,Delhi,Self-employed,52500.0,3269,9913475976
+C0539,Dayamai Rao,41,Lucknow,Engineer,25100.0,418,9658157627
+C0540,Nirja Rout,48,Hyderabad,Engineer,15600.0,3580,9595441521
+C0541,Jeremiah Nadig,35,Ahmedabad,Shopkeeper,63300.0,2806,9676572924
+C0542,Shivani Shukla,25,Chennai,Salaried,67900.0,2156,9843621058
+C0543,Kabir Gopal,31,Ahmedabad,Salaried,64100.0,573,9190296385
+C0544,Rachita Thakkar,54,Jaipur,Salaried,30000.0,444,9377635800
+C0545,Jeet Vasa,24,Kolkata,Shopkeeper,35000.0,3988,9820404830
+C0546,Daksha Gala,55,Lucknow,Engineer,55300.0,2671,9996628814
+C0547,Ekantika Kar,35,Chennai,Shopkeeper,46200.0,1381,9368851172
+C0548,Zilmil Mander,27,Bengaluru,Gig worker,31200.0,3568,9222637008
+C0549,Zashil Hegde,51,Jaipur,Shopkeeper,16900.0,3050,9240311160
+C0550,Jeremiah Mitter,43,Ahmedabad,Shopkeeper,40200.0,2528,9966870891
+C0551,Yadavi Ganguly,51,Delhi,Shopkeeper,65200.0,838,9442677677
+C0552,Onveer Nazareth,31,Jaipur,Salaried,20900.0,2633,9877943289
+C0553,Ayush Bumb,56,Pune,Shopkeeper,52300.0,1575,9712054769
+C0554,Alka Kade,43,Delhi,Salaried,44900.0,895,9941188020
+C0555,Azaan Tank,63,Chennai,Shopkeeper,55300.0,387,9970671982
+C0556,Chasmum Subramanian,31,Delhi,Engineer,58800.0,1653,9363098814
+C0557,Nidra Mishra,55,Pune,Engineer,26900.0,941,9177318014
+C0558,Elijah Bhasin,35,Kolkata,Salaried,16900.0,742,9774235252
+C0559,Ria Sagar,43,Chennai,Salaried,29100.0,267,9147845054
+C0560,Ucchal Jani,51,Delhi,Salaried,59300.0,3661,9409578311
+C0561,Maanas Munshi,54,Pune,Shopkeeper,29000.0,3323,9522990938
+C0562,Hemani Rastogi,51,Chennai,Shopkeeper,26900.0,1561,9852811945
+C0563,Kamala Varma,48,Kolkata,Salaried,15300.0,3364,9771645910
+C0564,Eiravati Khurana,57,Lucknow,Salaried,91300.0,3528,9857659131
+C0565,Jason Loke,31,Ahmedabad,Gig worker,57400.0,1423,9301100154
+C0566,Yug Dhaliwal,37,Delhi,Teacher,55800.0,2889,9594083146
+C0567,Chandresh Mannan,37,Jaipur,Engineer,61600.0,532,9444592653
+C0568,Omya Kothari,65,Lucknow,Shopkeeper,50700.0,896,9518499842
+C0569,Falak Munshi,26,Lucknow,Gig worker,33600.0,1125,9181291619
+C0570,Nathaniel Tara,54,Lucknow,Shopkeeper,35000.0,3891,9833199639
+C0571,Wishi Morar,56,Lucknow,Shopkeeper,30700.0,1959,9782719195
+C0572,Arin Chana,57,Mumbai,Teacher,141900.0,1487,9219206258
+C0573,Yashasvi Shankar,28,Mumbai,Shopkeeper,50200.0,3133,9191934040
+C0574,Tanveer Pandit,49,Kolkata,Gig worker,30100.0,2503,9916535611
+C0575,Chandresh Manda,44,Kolkata,Gig worker,48000.0,1705,9472538627
+C0576,Upma Mangal,56,Kolkata,Teacher,22900.0,3089,9762344160
+C0577,Hritik Sankar,46,Kolkata,Gig worker,80600.0,1488,9754210632
+C0578,Aishani Pau,60,Jaipur,Engineer,27300.0,3355,9430624967
+C0579,Jasmit Bath,23,Pune,Engineer,48800.0,3299,9562384405
+C0580,Charan Hayer,56,Delhi,Teacher,64800.0,2780,9557056024
+C0581,Bhavya Borah,53,Chennai,Gig worker,46100.0,2495,9814419079
+C0582,Yamini Seshadri,32,Pune,Self-employed,39800.0,967,9400801311
+C0583,Jagat Dave,36,Pune,Self-employed,38200.0,2118,9372645868
+C0584,Meera Prakash,59,Chennai,Teacher,36900.0,636,9508207775
+C0585,Jasmit Dhawan,37,Chennai,Salaried,28500.0,1999,9718051779
+C0586,Yashodhara Ratti,53,Bengaluru,Salaried,30400.0,2196,9566179895
+C0587,Chakradev Barad,56,Pune,Teacher,79600.0,3558,9368536591
+C0588,Gauri Som,58,Pune,Salaried,36000.0,2682,9594520974
+C0589,Manthan Varma,31,Delhi,Shopkeeper,25700.0,3521,9898003849
+C0590,Falak Nagar,44,Lucknow,Self-employed,29400.0,486,9278595402
+C0591,Maya Mistry,33,Pune,Shopkeeper,65900.0,1464,9343662114
+C0592,Yashica Upadhyay,49,Hyderabad,Salaried,53300.0,1956,9194856131
+C0593,Chandani Soman,61,Jaipur,Shopkeeper,50300.0,3527,9736504131
+C0594,Jyoti Narula,25,Ahmedabad,Engineer,33400.0,2785,9862217152
+C0595,Omaja Morar,59,Mumbai,Salaried,50600.0,3852,9326137195
+C0596,Urvi Lanka,40,Delhi,Gig worker,27500.0,3318,9857571272
+C0597,Charan Srinivasan,47,Kolkata,Gig worker,33400.0,1895,9599004893
+C0598,Lajita Divan,63,Bengaluru,Self-employed,61700.0,2486,9613130727
+C0599,Azad Choudhary,22,Bengaluru,Teacher,58800.0,2837,9992232506
+C0600,Anirudh Sastry,51,Hyderabad,Salaried,23300.0,1607,9843636623
+C0601,Omya Doshi,42,Jaipur,Salaried,24800.0,687,9275629798
+C0602,Samar Roy,48,Kolkata,Gig worker,40100.0,1299,9619003995
+C0603,David Devi,26,Chennai,Salaried,90100.0,491,9249055462
+C0604,Ekta Sridhar,26,Chennai,Gig worker,14600.0,2508,9258762047
+C0605,Dipta Ghose,21,Jaipur,Shopkeeper,43700.0,1267,9284233447
+C0606,Hema Pandya,35,Bengaluru,Salaried,19100.0,2079,9806685522
+C0607,Veda Handa,53,Ahmedabad,Salaried,27700.0,2071,9442278291
+C0608,Arya Misra,22,Pune,Salaried,31700.0,2019,9242245261
+C0609,Chameli Mani,54,Lucknow,Shopkeeper,30800.0,522,9205869821
+C0610,Vrinda Nadig,64,Lucknow,Gig worker,29100.0,1421,9565965808
+C0611,Ikshita Mahal,45,Lucknow,Gig worker,38100.0,304,9729630781
+C0612,Jairaj Raghavan,55,Bengaluru,Salaried,29100.0,740,9502788555
+C0613,Hemani Dhingra,44,Ahmedabad,Salaried,18300.0,982,9849920534
+C0614,Brijesh Mani,45,Delhi,Teacher,56100.0,725,9803929949
+C0615,Hiral Sathe,56,Lucknow,Self-employed,55400.0,1217,9893249833
+C0616,Varenya Kala,46,Kolkata,Salaried,57900.0,2569,9622083756
+C0617,Anika Magar,34,Jaipur,Salaried,17600.0,2933,9965055151
+C0618,Ikbal Khatri,46,Mumbai,Gig worker,44100.0,2210,9596967843
+C0619,Chandresh Wali,33,Kolkata,Salaried,53300.0,2319,9635127597
+C0620,Viraj Ben,50,Jaipur,Shopkeeper,22700.0,3153,9318228601
+C0621,Odika Narayanan,34,Hyderabad,Self-employed,38200.0,2868,9108401115
+C0622,Harish Devan,27,Jaipur,Engineer,35900.0,1348,9379845041
+C0623,Nakul Ray,46,Chennai,Salaried,95500.0,2101,9837459556
+C0624,Vansha Iyengar,53,Lucknow,Teacher,99500.0,3534,9324839137
+C0625,Ekani Mangal,23,Mumbai,Shopkeeper,16500.0,2633,9323001472
+C0626,Gaurav Kata,59,Pune,Gig worker,132200.0,1147,9340779428
+C0627,Parth Sahni,31,Hyderabad,Salaried,24000.0,1111,9672344334
+C0628,Balhaar Ranganathan,50,Ahmedabad,Engineer,62000.0,1067,9723467350
+C0629,Quincy Mann,49,Hyderabad,Engineer,61700.0,761,9437658630
+C0630,Aditya Misra,57,Lucknow,Salaried,23100.0,1991,9337772496
+C0631,Gautami Mane,28,Delhi,Gig worker,48600.0,2736,9578133729
+C0632,Wakeeta Desai,37,Jaipur,Teacher,36000.0,3652,9412327863
+C0633,Anjali Hans,31,Chennai,Gig worker,50100.0,1940,9849166151
+C0634,Ganga Gaba,23,Hyderabad,Self-employed,42600.0,1001,9676957926
+C0635,Aarini Grewal,57,Hyderabad,Salaried,69100.0,486,9377976479
+C0636,Geetika Merchant,59,Delhi,Salaried,39500.0,791,9985231312
+C0637,Parth Ravi,43,Mumbai,Salaried,34900.0,3883,9724944712
+C0638,Yutika Narang,31,Bengaluru,Salaried,65700.0,3136,9223663443
+C0639,Nandini Chandran,33,Pune,Gig worker,50800.0,2504,9367543422
+C0640,Logan Sood,38,Pune,Salaried,54800.0,3002,9581900968
+C0641,Yuvraj Ahuja,42,Ahmedabad,Salaried,27300.0,3882,9712334971
+C0642,Leela Keer,30,Kolkata,Engineer,22500.0,1577,9410456648
+C0643,Amara Narayan,58,Mumbai,Salaried,28600.0,2730,9915888368
+C0644,Advay Lal,43,Mumbai,Gig worker,27900.0,1157,9844653395
+C0645,Warinder Bhatia,48,Pune,Gig worker,56300.0,2734,9138451506
+C0646,Udyati Mohanty,39,Pune,Gig worker,61900.0,3810,9958183413
+C0647,Nidra Thakkar,42,Kolkata,Salaried,35200.0,2032,9719044146
+C0648,Jacob Merchant,51,Ahmedabad,Self-employed,77700.0,3650,9980844542
+C0649,Timothy Kanda,46,Delhi,Self-employed,75300.0,3105,9622609901
+C0650,Vanya Dua,63,Lucknow,Salaried,42900.0,3472,9421634777
+C0651,Kashvi Sagar,57,Hyderabad,Self-employed,25200.0,475,9206972190
+C0652,Tejas Kota,47,Hyderabad,Gig worker,83500.0,794,9558945989
+C0653,Sanya Wable,23,Mumbai,Self-employed,36900.0,2544,9689836104
+C0654,Faras Choudhury,65,Lucknow,Self-employed,40500.0,3174,9186080931
+C0655,Yashasvi Jain,59,Pune,Engineer,32100.0,3888,9928219624
+C0656,Nitesh Narang,21,Mumbai,Teacher,24400.0,2254,9208433623
+C0657,Jackson Jha,53,Delhi,Shopkeeper,18200.0,794,9500922723
+C0658,Gavin Uppal,58,Hyderabad,Teacher,52100.0,2873,9953895164
+C0659,Christopher Setty,41,Ahmedabad,Gig worker,25700.0,3594,9759376406
+C0660,Yochana Sagar,26,Kolkata,Shopkeeper,175400.0,687,9854773421
+C0661,Dalbir Shere,25,Lucknow,Engineer,22100.0,776,9753817028
+C0662,Anthony Randhawa,26,Hyderabad,Shopkeeper,20300.0,982,9256443984
+C0663,Aarush Kamdar,40,Pune,Salaried,49000.0,1932,9333594588
+C0664,Chakradev Sampath,26,Bengaluru,Salaried,81600.0,3677,9994681422
+C0665,Devansh Bhasin,37,Lucknow,Self-employed,39200.0,3666,9255818360
+C0666,Urmi Balay,33,Jaipur,Salaried,50600.0,3329,9483279902
+C0667,Nilima Gole,39,Chennai,Engineer,15100.0,221,9775620202
+C0668,Osha Prasad,56,Lucknow,Shopkeeper,27100.0,3172,9575821782
+C0669,Saumya Purohit,41,Pune,Engineer,22200.0,1692,9615377708
+C0670,Faris Zacharia,25,Pune,Salaried,14700.0,1853,9551919509
+C0671,Ijaya Dani,53,Chennai,Salaried,40300.0,2271,9149219962
+C0672,Maya Wadhwa,59,Jaipur,Salaried,12400.0,1200,9124897762
+C0673,Udant Aggarwal,37,Delhi,Shopkeeper,19600.0,709,9693436393
+C0674,Chanchal Sheth,46,Bengaluru,Engineer,29000.0,613,9898125345
+C0675,Ladli Karpe,54,Kolkata,Shopkeeper,25100.0,1731,9353473973
+C0676,Triveni Pal,27,Ahmedabad,Self-employed,46300.0,3351,9399173620
+C0677,Anya Gulati,63,Lucknow,Salaried,44300.0,2049,9814590344
+C0678,Azad Saini,31,Delhi,Salaried,59400.0,2444,9222823147
+C0679,Wridesh Jhaveri,36,Ahmedabad,Salaried,55400.0,391,9481467766
+C0680,Harrison Bandi,21,Delhi,Salaried,67200.0,588,9210433806
+C0681,Chanakya Konda,44,Jaipur,Teacher,38000.0,2684,9421958507
+C0682,Neelima Sarna,60,Delhi,Salaried,44200.0,3453,9161514448
+C0683,Teerth Bhalla,29,Mumbai,Salaried,49100.0,644,9615433722
+C0684,Yahvi Mann,50,Delhi,Shopkeeper,40800.0,563,9820339328
+C0685,Eiravati Nagi,44,Chennai,Salaried,31200.0,1117,9865525511
+C0686,Chasmum Dhar,36,Delhi,Teacher,32200.0,2797,9204832554
+C0687,Odika Mital,23,Kolkata,Salaried,25200.0,2506,9753329234
+C0688,Darsh Gill,37,Chennai,Salaried,46900.0,408,9583783691
+C0689,Warhi Batta,22,Kolkata,Self-employed,36300.0,730,9582118905
+C0690,Lakshmi Vohra,45,Jaipur,Salaried,27300.0,2280,9860257051
+C0691,Omaja Rege,33,Lucknow,Teacher,27300.0,1832,9894871981
+C0692,Charita Puri,64,Bengaluru,Shopkeeper,20700.0,209,9138857845
+C0693,Urvashi Khosla,37,Ahmedabad,Gig worker,62000.0,2543,9176354028
+C0694,Charita Dhawan,44,Pune,Self-employed,39500.0,1192,9956845198
+C0695,Dalbir Sachar,46,Chennai,Salaried,24700.0,3098,9525320554
+C0696,Krish Rama,38,Kolkata,Salaried,56900.0,2226,9517582835
+C0697,Aadhya Jani,21,Bengaluru,Salaried,28700.0,2100,9427945965
+C0698,Farhan Sengupta,26,Kolkata,Salaried,18800.0,1498,9988930278
+C0699,George Wason,23,Bengaluru,Salaried,63300.0,2133,9320482772
+C0700,Charan Loyal,64,Delhi,Shopkeeper,29100.0,2232,9134455116
+C0701,Balveer Bora,26,Mumbai,Salaried,31000.0,1465,9752604119
+C0702,Teerth Srinivas,34,Bengaluru,Salaried,38800.0,1450,9853965832
+C0703,Gaurangi Mitter,32,Bengaluru,Shopkeeper,67300.0,2684,9881360910
+C0704,Siddharth Gupta,29,Mumbai,Self-employed,38400.0,2826,9777999361
+C0705,Varenya Kibe,28,Jaipur,Salaried,20900.0,1964,9676154123
+C0706,Mekhala Khatri,32,Kolkata,Teacher,49900.0,2670,9457205814
+C0707,Barkha Rai,55,Jaipur,Salaried,29800.0,2986,9835036420
+C0708,Jagrati Morar,53,Jaipur,Engineer,97700.0,1298,9748865947
+C0709,Jagvi Varghese,29,Pune,Shopkeeper,38000.0,1275,9480265362
+C0710,Unnati Chaudhari,30,Delhi,Gig worker,12400.0,1914,9560209604
+C0711,Ekaja Jani,22,Bengaluru,Salaried,45400.0,1349,9938349045
+C0712,Dhriti Sachdev,27,Kolkata,Salaried,100500.0,2335,9928842806
+C0713,Timothy Dhingra,36,Mumbai,Gig worker,83600.0,1259,9902418198
+C0714,Advika Sahni,59,Kolkata,Teacher,94900.0,2489,9761762815
+C0715,Michael Hayre,41,Ahmedabad,Salaried,22800.0,233,9728692402
+C0716,Victor Raghavan,50,Ahmedabad,Self-employed,60000.0,1814,9605800572
+C0717,Xalak Nazareth,38,Jaipur,Self-employed,26500.0,3177,9302588634
+C0718,Vrinda Swaminathan,65,Hyderabad,Teacher,42500.0,2446,9423266004
+C0719,Om Pandey,64,Pune,Shopkeeper,20100.0,1837,9120384102
+C0720,Logan Suresh,22,Ahmedabad,Gig worker,27500.0,1673,9830242856
+C0721,Daniel Viswanathan,48,Kolkata,Teacher,27100.0,953,9179442104
+C0722,Falan Bava,53,Delhi,Teacher,59600.0,693,9736982659
+C0723,Nitara Devan,49,Jaipur,Gig worker,56700.0,381,9855808861
+C0724,Ekansh Dora,30,Mumbai,Shopkeeper,43600.0,940,9582465085
+C0725,Tejas Tiwari,42,Jaipur,Salaried,19300.0,605,9474034777
+C0726,Kashvi Bhasin,42,Jaipur,Gig worker,32500.0,765,9980993310
+C0727,Vinaya Babu,41,Ahmedabad,Shopkeeper,26200.0,396,9479831320
+C0728,Nisha Arora,43,Pune,Gig worker,58700.0,2070,9267403933
+C0729,Anvi Wason,33,Mumbai,Engineer,68500.0,2773,9448778765
+C0730,Anay Thakkar,38,Delhi,Salaried,64400.0,3712,9128252457
+C0731,Praneel Chhabra,27,Lucknow,Gig worker,26000.0,322,9540790051
+C0732,Manthan Khosla,54,Pune,Self-employed,12000.0,2599,9638819029
+C0733,Zayyan Pandya,61,Bengaluru,Salaried,15700.0,790,9698428236
+C0734,Mekhala Brar,45,Pune,Teacher,77400.0,1631,9275943965
+C0735,Nidra Sharaf,45,Chennai,Self-employed,31100.0,1889,9922781544
+C0736,Upkaar Mital,30,Bengaluru,Gig worker,26100.0,377,9609703516
+C0737,Azad Chander,43,Kolkata,Salaried,86400.0,3444,9536988167
+C0738,Ladli Purohit,27,Pune,Salaried,71500.0,1918,9522443841
+C0739,Daksh Andra,40,Chennai,Shopkeeper,38500.0,3844,9540942039
+C0740,Fitan Tata,64,Lucknow,Engineer,32800.0,1057,9494583596
+C0741,Garima Chandran,36,Delhi,Salaried,35600.0,2565,9478673015
+C0742,Victor Kakar,58,Kolkata,Salaried,42600.0,3385,9546486593
+C0743,Anika Batra,46,Ahmedabad,Teacher,84600.0,284,9259540369
+C0744,Avni Bali,40,Delhi,Salaried,46900.0,3208,9228510234
+C0745,Divya Babu,28,Hyderabad,Salaried,54600.0,1171,9943806088
+C0746,Maanas Rao,49,Ahmedabad,Salaried,68200.0,2541,9314703615
+C0747,Chandani Gaba,38,Mumbai,Engineer,21200.0,899,9284247963
+C0748,Lopa Zachariah,41,Chennai,Salaried,55400.0,1556,9921429991
+C0749,Leena Dey,47,Ahmedabad,Shopkeeper,32800.0,2673,9843097904
+C0750,Xiti Pal,25,Ahmedabad,Self-employed,12000.0,2911,9320795529
+C0751,Guneet Sarkar,25,Lucknow,Self-employed,13100.0,725,9692628825
+C0752,Faqid Oak,23,Chennai,Teacher,22800.0,2937,9507957467
+C0753,Eta Balan,37,Lucknow,Salaried,49600.0,483,9820968519
+C0754,Shravya Swaminathan,42,Delhi,Salaried,40200.0,306,9832985118
+C0755,Ishani Prashad,41,Delhi,Salaried,41700.0,2542,9634346836
+C0756,Quincy Rai,57,Delhi,Salaried,100800.0,334,9454658929
+C0757,Chakrika Koshy,53,Kolkata,Salaried,20100.0,2697,9774929945
+C0758,Fitan Loyal,40,Delhi,Self-employed,37500.0,3125,9726590589
+C0759,Lajita Dube,33,Jaipur,Self-employed,44200.0,1948,9177975272
+C0760,Edhitha Patel,65,Lucknow,Salaried,26300.0,2330,9802322109
+C0761,Gavin Ahluwalia,43,Bengaluru,Shopkeeper,38500.0,1221,9401055183
+C0762,Sai Parsa,37,Lucknow,Gig worker,17100.0,2934,9870788249
+C0763,Harsh Deo,61,Ahmedabad,Shopkeeper,76900.0,2643,9218509076
+C0764,Rachit Sankar,26,Jaipur,Salaried,27000.0,3257,9941262196
+C0765,Yauvani Reddy,49,Jaipur,Salaried,104900.0,1851,9968633444
+C0766,Atharv Chakraborty,57,Bengaluru,Shopkeeper,37400.0,2098,9569338401
+C0767,Girik Nair,48,Mumbai,Salaried,63500.0,2945,9858153606
+C0768,Advik Manne,24,Delhi,Teacher,37000.0,1898,9863753946
+C0769,Lipika Chad,24,Pune,Salaried,37400.0,2895,9872067503
+C0770,Omkaar Rai,28,Pune,Engineer,28400.0,357,9956828528
+C0771,Liam Luthra,60,Mumbai,Salaried,40300.0,2829,9555247986
+C0772,Amrita Tailor,23,Hyderabad,Salaried,44500.0,2884,9892636969
+C0773,Dev Ganesh,42,Kolkata,Gig worker,25700.0,3942,9307810917
+C0774,Anya Sama,31,Pune,Teacher,35700.0,3487,9350268044
+C0775,Veda Bose,25,Kolkata,Gig worker,28000.0,1624,9265858355
+C0776,Zayan Koshy,59,Lucknow,Teacher,120000.0,2400,9335283709
+C0777,Rohan Shankar,39,Delhi,Salaried,36300.0,1911,9493160229
+C0778,Krishna Modi,24,Ahmedabad,Salaried,82300.0,2134,9522540578
+C0779,Meghana Natarajan,59,Jaipur,Engineer,34500.0,1640,9484681554
+C0780,Forum Sarraf,46,Pune,Self-employed,43300.0,773,9625459253
+C0781,Qushi Deshpande,53,Hyderabad,Engineer,19600.0,3983,9183680223
+C0782,Ekani Iyer,60,Pune,Self-employed,30400.0,1765,9355659572
+C0783,Dipta Goel,60,Kolkata,Shopkeeper,42200.0,3827,9477785038
+C0784,Eiravati Manne,53,Hyderabad,Self-employed,84000.0,3010,9719927716
+C0785,Xavier Nanda,62,Jaipur,Gig worker,42500.0,3693,9192145969
+C0786,Avni Ramaswamy,55,Pune,Self-employed,75900.0,3170,9346245866
+C0787,Ishaan Iyengar,60,Chennai,Salaried,52300.0,1447,9478829697
+C0788,Avi Shenoy,63,Mumbai,Gig worker,85700.0,3373,9524850702
+C0789,Raksha Manne,46,Pune,Salaried,36900.0,2629,9927959583
+C0790,Nilima Tata,44,Chennai,Salaried,125500.0,3789,9882287029
+C0791,Chavvi Khurana,61,Pune,Teacher,29800.0,1843,9311186222
+C0792,Mitesh Sampath,30,Pune,Gig worker,25900.0,663,9511988264
+C0793,Ethan Sen,60,Bengaluru,Salaried,20800.0,1385,9975998718
+C0794,Nandini Warrior,35,Jaipur,Engineer,121900.0,1280,9678336851
+C0795,Balhaar Parsa,30,Pune,Salaried,57200.0,2755,9888153176
+C0796,Ikbal Kothari,32,Bengaluru,Engineer,32200.0,1958,9561756939
+C0797,Ojas Basu,52,Mumbai,Engineer,71000.0,1587,9488963658
+C0798,Garima Sani,54,Kolkata,Salaried,53600.0,913,9889667044
+C0799,Advaith Chaudhari,44,Bengaluru,Salaried,101600.0,687,9927913071
+C0800,Tristan Uppal,64,Pune,Salaried,17500.0,1791,9222986772
+C0801,Sanaya Prasad,45,Kolkata,Shopkeeper,33300.0,1411,9278031487
+C0802,Ubika Tella,27,Pune,Gig worker,30200.0,453,9783086704
+C0803,Hemani Bakshi,41,Jaipur,Self-employed,14200.0,790,9832310533
+C0804,Henry Merchant,60,Mumbai,Salaried,64600.0,989,9102170257
+C0805,Frederick D’Alia,24,Hyderabad,Salaried,33200.0,939,9206051900
+C0806,Ijaya Muni,53,Kolkata,Shopkeeper,55000.0,623,9684187310
+C0807,Tamanna Jhaveri,26,Bengaluru,Self-employed,123700.0,268,9455747121
+C0808,Ijaya Soni,55,Hyderabad,Self-employed,31800.0,2054,9952108175
+C0809,Raksha Sethi,44,Hyderabad,Shopkeeper,30800.0,798,9186367801
+C0810,Ekalinga Mital,41,Pune,Salaried,40300.0,654,9890226345
+C0811,Ishwar Bajaj,48,Kolkata,Salaried,62300.0,1496,9658748228
+C0812,Ikbal Gala,44,Kolkata,Teacher,28600.0,1770,9804571944
+C0813,Zaitra Ghosh,32,Delhi,Shopkeeper,27700.0,285,9355302059
+C0814,Ganga Sandhu,26,Bengaluru,Self-employed,64500.0,692,9934591926
+C0815,Vincent Ravel,27,Ahmedabad,Self-employed,45900.0,2451,9497460507
+C0816,Quincy Sankaran,35,Mumbai,Gig worker,13700.0,3683,9568709373
+C0817,Ayush Hora,47,Kolkata,Self-employed,20600.0,658,9882034969
+C0818,Pushti Ramachandran,35,Lucknow,Engineer,80500.0,1130,9617513537
+C0819,Tanish Jha,54,Chennai,Teacher,46500.0,3661,9664542823
+C0820,Dev Chaudry,58,Lucknow,Engineer,26000.0,3438,9303048283
+C0821,Jasmit Nanda,21,Mumbai,Salaried,34900.0,2822,9558949917
+C0822,Tanvi Comar,42,Delhi,Teacher,38300.0,1584,9784564508
+C0823,Vrishti Wable,26,Bengaluru,Salaried,54900.0,1281,9931020801
+C0824,Lipika Ramanathan,43,Chennai,Salaried,19300.0,1206,9700565748
+C0825,Ijaya Pandey,65,Jaipur,Teacher,25000.0,1993,9188774870
+C0826,Orinder Mishra,53,Lucknow,Gig worker,43600.0,547,9741584549
+C0827,Krish Munshi,62,Bengaluru,Salaried,36100.0,3007,9398645584
+C0828,William Mody,53,Jaipur,Salaried,50600.0,360,9600373891
+C0829,Qadim Prakash,39,Lucknow,Salaried,20500.0,1148,9874161034
+C0830,Yasti Rama,54,Kolkata,Shopkeeper,45400.0,3175,9879617727
+C0831,Lakshit Rajagopal,56,Chennai,Salaried,65600.0,2507,9992593120
+C0832,Quincy Sur,51,Hyderabad,Gig worker,48500.0,637,9140887679
+C0833,Ojas Suri,61,Jaipur,Salaried,40700.0,1809,9535253678
+C0834,Logan Grover,32,Chennai,Salaried,36200.0,2840,9781635579
+C0835,Shravya Bera,25,Chennai,Shopkeeper,25000.0,3500,9814386965
+C0836,Aditya Sundaram,54,Delhi,Shopkeeper,36700.0,2993,9899653389
+C0837,Robert Rajagopalan,61,Bengaluru,Salaried,71300.0,2704,9513079317
+C0838,Nilima Swamy,21,Bengaluru,Shopkeeper,35800.0,1580,9334905497
+C0839,Sachi Suresh,50,Kolkata,Salaried,24400.0,3426,9622277064
+C0840,Fitan Balasubramanian,28,Pune,Engineer,29700.0,539,9111021099
+C0841,Brinda Bali,50,Chennai,Salaried,42000.0,1993,9265225875
+C0842,Umang Yogi,37,Bengaluru,Gig worker,31500.0,2759,9923358113
+C0843,Om Shankar,24,Pune,Salaried,48400.0,2401,9579816749
+C0844,Yasti Chowdhury,60,Ahmedabad,Engineer,49400.0,955,9136659938
+C0845,Amrita Peri,61,Ahmedabad,Salaried,59300.0,377,9712539796
+C0846,Ridhi Kamdar,47,Lucknow,Gig worker,77400.0,3089,9807751207
+C0847,Harsh Kota,21,Mumbai,Engineer,62500.0,881,9285517241
+C0848,Bachittar Sengupta,54,Bengaluru,Salaried,23800.0,251,9522500614
+C0849,Ijaya Chahal,49,Jaipur,Shopkeeper,24200.0,2674,9289543767
+C0850,Jacob Khalsa,36,Pune,Salaried,36600.0,3882,9317138463
+C0851,Indali Sangha,41,Pune,Salaried,30300.0,3632,9297626409
+C0852,Liam Jhaveri,25,Pune,Salaried,21500.0,3998,9270097333
+C0853,Daniel Panchal,34,Bengaluru,Salaried,30500.0,249,9561629419
+C0854,Om Naik,31,Delhi,Salaried,30000.0,1241,9481669794
+C0855,Bimala Loke,65,Pune,Teacher,27200.0,3120,9145599966
+C0856,Krishna Sabharwal,43,Chennai,Gig worker,32400.0,852,9210650190
+C0857,Aradhana Date,63,Hyderabad,Salaried,68500.0,2121,9768579925
+C0858,Zaid Dhingra,33,Lucknow,Salaried,42000.0,1137,9239499042
+C0859,Yug Ramaswamy,62,Jaipur,Gig worker,130800.0,2738,9332951426
+C0860,Lucky Luthra,24,Lucknow,Shopkeeper,41400.0,335,9146516504
+C0861,Keya Seth,46,Delhi,Teacher,32900.0,3792,9351979918
+C0862,Girik Rau,34,Lucknow,Salaried,38100.0,1113,9175849747
+C0863,Jyoti Sha,58,Ahmedabad,Salaried,43200.0,3251,9243934832
+C0864,Falak Agate,27,Pune,Self-employed,47200.0,3445,9230126828
+C0865,Tara Parmar,47,Lucknow,Teacher,107300.0,1072,9507257558
+C0866,Mitali Kamdar,42,Pune,Salaried,24900.0,648,9576087039
+C0867,Siddharth Talwar,63,Hyderabad,Self-employed,58400.0,3738,9617740908
+C0868,Ekantika Mander,55,Hyderabad,Gig worker,42200.0,2542,9777385298
+C0869,Kalpit Sundaram,61,Bengaluru,Teacher,17300.0,320,9579232071
+C0870,Chanakya Batra,61,Kolkata,Salaried,55900.0,2504,9421970944
+C0871,Tripti Babu,40,Bengaluru,Gig worker,71600.0,953,9945324580
+C0872,Nakul Sastry,55,Chennai,Shopkeeper,24800.0,253,9963878821
+C0873,Aadi Sangha,36,Lucknow,Shopkeeper,37800.0,2486,9315773362
+C0874,Kevin Mittal,29,Pune,Self-employed,16000.0,3022,9331574288
+C0875,Anusha Chander,46,Delhi,Salaried,20300.0,3873,9877463705
+C0876,Zashil Butala,35,Hyderabad,Teacher,64200.0,1165,9770002773
+C0877,Noah Ben,52,Chennai,Self-employed,30100.0,1367,9988212069
+C0878,Dalaja Kaur,65,Jaipur,Salaried,21800.0,3168,9319962738
+C0879,Gavin Chandran,61,Bengaluru,Self-employed,42600.0,554,9173221535
+C0880,Tanay Sood,38,Hyderabad,Salaried,29300.0,3415,9202956001
+C0881,Kevin Kara,65,Bengaluru,Self-employed,30000.0,807,9758943189
+C0882,Aditya Anand,24,Mumbai,Gig worker,55000.0,3490,9299003053
+C0883,Jai Sami,45,Mumbai,Salaried,21300.0,238,9549241932
+C0884,Vanya Bobal,53,Chennai,Salaried,24200.0,1812,9558548744
+C0885,Leela Chakraborty,28,Mumbai,Salaried,41000.0,3944,9750656481
+C0886,Harshil Munshi,26,Pune,Self-employed,61700.0,888,9946526093
+C0887,Chandani Devan,32,Delhi,Salaried,70600.0,2413,9827649564
+C0888,Kiaan Dhar,36,Bengaluru,Salaried,27300.0,210,9112617621
+C0889,Abhiram Gala,40,Kolkata,Salaried,60700.0,961,9918813055
+C0890,Indali Kala,65,Kolkata,Gig worker,25700.0,2415,9281430559
+C0891,Nisha Savant,37,Kolkata,Teacher,94700.0,2773,9154417216
+C0892,Gabriel Chaudhry,49,Lucknow,Teacher,21600.0,2401,9813220192
+C0893,Jatin Rajagopalan,41,Bengaluru,Self-employed,73800.0,663,9933758710
+C0894,Pushti Murty,52,Pune,Engineer,27400.0,405,9447430180
+C0895,Yug Malhotra,50,Delhi,Teacher,104000.0,3309,9634717246
+C0896,Yuvraj Mane,30,Jaipur,Salaried,51100.0,2996,9665407906
+C0897,Charvi Jha,25,Delhi,Salaried,22900.0,473,9369691680
+C0898,Manya Merchant,22,Ahmedabad,Shopkeeper,29300.0,855,9380244469
+C0899,Wriddhish Talwar,54,Kolkata,Gig worker,56200.0,3959,9666815388
+C0900,Isaiah Khosla,51,Hyderabad,Gig worker,64300.0,1305,9926354461
+C0901,Ekavir Wable,37,Mumbai,Gig worker,36700.0,3183,9962912250
+C0902,Jalsa Nadig,45,Jaipur,Salaried,38900.0,1812,9477137661
+C0903,Lila Salvi,35,Jaipur,Shopkeeper,55500.0,1441,9222207242
+C0904,Orinder Sinha,58,Lucknow,Shopkeeper,40600.0,1169,9747135941
+C0905,Anay Bir,53,Jaipur,Engineer,19900.0,3819,9529296865
+C0906,Adweta Kale,24,Mumbai,Shopkeeper,25300.0,3410,9109963385
+C0907,Darpan Rao,37,Bengaluru,Salaried,42700.0,2627,9559014563
+C0908,Yachana Sagar,42,Chennai,Teacher,69800.0,2795,9139125825
+C0909,Neelima Butala,27,Pune,Self-employed,85200.0,3985,9902531629
+C0910,Arunima Chacko,50,Delhi,Salaried,56100.0,1937,9628344238
+C0911,Farhan Vaidya,50,Mumbai,Shopkeeper,43900.0,2074,9135378867
+C0912,Nachiket Yadav,58,Hyderabad,Salaried,55300.0,1411,9417528492
+C0913,Mahika Bhatti,22,Ahmedabad,Engineer,27200.0,3566,9418276224
+C0914,Rajeshri Khare,46,Chennai,Self-employed,35200.0,2437,9505960652
+C0915,Yash Chadha,55,Delhi,Salaried,25200.0,3591,9894108895
+C0916,Jack Setty,57,Pune,Self-employed,20400.0,296,9351495975
+C0917,Dayamai Gill,53,Pune,Self-employed,44900.0,668,9546741063
+C0918,Advik Devan,53,Hyderabad,Gig worker,41700.0,3675,9310693080
+C0919,Nihal Taneja,34,Kolkata,Self-employed,53600.0,3921,9153711259
+C0920,Zansi Lad,26,Pune,Self-employed,49900.0,3583,9544742938
+C0921,Kamya Date,40,Mumbai,Self-employed,42900.0,2220,9625405138
+C0922,Jacob Balan,48,Chennai,Salaried,50200.0,780,9656727796
+C0923,Pushti Magar,59,Lucknow,Salaried,37200.0,502,9667300048
+C0924,Adya Bose,22,Kolkata,Self-employed,46700.0,3388,9662836347
+C0925,Tamanna Vaidya,54,Chennai,Engineer,26400.0,2195,9662693310
+C0926,Christopher Tata,37,Chennai,Engineer,45700.0,1695,9119240611
+C0927,Jhalak Dugar,38,Pune,Self-employed,53100.0,468,9216378326
+C0928,Harshil D’Alia,35,Chennai,Salaried,27200.0,1679,9388114392
+C0929,Yashodhara Agate,22,Bengaluru,Salaried,39000.0,745,9776716277
+C0930,Advik Konda,24,Hyderabad,Teacher,27800.0,3263,9591023816
+C0931,Urmi Patla,45,Jaipur,Engineer,29200.0,1001,9816460389
+C0932,Mason Gola,41,Delhi,Gig worker,21700.0,3912,9226633416
+C0933,Oni Kapur,21,Ahmedabad,Gig worker,71600.0,1032,9813260358
+C0934,Yuvraj Saha,38,Pune,Salaried,64700.0,2474,9221087540
+C0935,Anika Brahmbhatt,37,Pune,Salaried,49700.0,3099,9963749199
+C0936,Jagdish Thakkar,25,Pune,Salaried,101900.0,1594,9649800799
+C0937,Praneel Kapoor,24,Hyderabad,Engineer,34600.0,1930,9267833130
+C0938,Nandini Biswas,21,Chennai,Salaried,173000.0,308,9639759339
+C0939,Barkha Mukhopadhyay,61,Chennai,Self-employed,33900.0,3401,9173335581
+C0940,Gabriel Shan,37,Jaipur,Salaried,43200.0,3563,9355629342
+C0941,Jyoti Iyer,39,Lucknow,Salaried,31100.0,3878,9139574501
+C0942,Daksha Kibe,32,Hyderabad,Gig worker,45800.0,3657,9963831340
+C0943,Jyoti Tak,51,Kolkata,Salaried,57700.0,3261,9678599491
+C0944,Yatan Dora,22,Lucknow,Salaried,35900.0,2008,9537489990
+C0945,Nimrat Bajwa,57,Bengaluru,Self-employed,92400.0,348,9413655110
+C0946,Hiral Andra,24,Hyderabad,Shopkeeper,42800.0,1965,9979400728
+C0947,Aarav Puri,23,Hyderabad,Gig worker,43500.0,1663,9847422003
+C0948,Hemang Jha,38,Delhi,Gig worker,24100.0,967,9419420834
+C0949,Oni Swamy,43,Jaipur,Salaried,46800.0,1646,9161112101
+C0950,Lucky Mammen,38,Hyderabad,Gig worker,35500.0,1314,9154762185
+C0951,Caleb Kata,46,Kolkata,Salaried,28000.0,2118,9507723502
+C0952,Kashish Shanker,49,Jaipur,Teacher,25800.0,3081,9414705645
+C0953,Girish Tiwari,37,Jaipur,Salaried,144500.0,484,9742907891
+C0954,Meera Borde,50,Hyderabad,Salaried,33300.0,2600,9278567972
+C0955,Radhika De,45,Hyderabad,Engineer,18300.0,3911,9271036799
+C0956,Bishakha Lal,26,Hyderabad,Shopkeeper,26800.0,800,9538649289
+C0957,Maya Narain,39,Pune,Teacher,37000.0,1322,9543764447
+C0958,Sneha Magar,59,Pune,Salaried,49900.0,3562,9347052780
+C0959,Falan Jain,55,Jaipur,Gig worker,50100.0,533,9712785981
+C0960,Ikbal Dugal,40,Lucknow,Engineer,53300.0,3089,9251142615
+C0961,Nitesh Sengupta,49,Bengaluru,Salaried,27500.0,1484,9193628357
+C0962,Dipta Ray,25,Jaipur,Gig worker,45100.0,1711,9273034120
+C0963,Ishita Johal,55,Kolkata,Gig worker,24500.0,922,9211193205
+C0964,Darika Sheth,26,Delhi,Shopkeeper,27900.0,1597,9984019484
+C0965,Jagdish Chana,63,Pune,Self-employed,24000.0,1959,9130062216
+C0966,Daksha Baria,55,Hyderabad,Salaried,21000.0,2321,9761909406
+C0967,Falak Divan,21,Kolkata,Engineer,64700.0,2960,9657973612
+C0968,Yuvraj Parekh,25,Jaipur,Engineer,53600.0,2076,9624394283
+C0969,Yochana Bawa,48,Mumbai,Salaried,61900.0,3210,9976381990
+C0970,Abha Ghosh,33,Chennai,Shopkeeper,38800.0,816,9150323876
+C0971,Nidhi Sethi,31,Kolkata,Salaried,56000.0,3936,9902399736
+C0972,Girindra Shere,61,Jaipur,Teacher,15800.0,2136,9991538135
+C0973,Logan Dara,25,Jaipur,Salaried,58500.0,1489,9641096319
+C0974,David Kapadia,56,Delhi,Gig worker,41500.0,1042,9475786212
+C0975,Rudra Rattan,47,Bengaluru,Self-employed,52000.0,3823,9996037773
+C0976,Frado Lad,58,Pune,Gig worker,46000.0,2895,9518178459
+C0977,Anthony Bhattacharyya,39,Pune,Salaried,23200.0,294,9403234162
+C0978,Sachi Dave,56,Bengaluru,Salaried,18000.0,1446,9639005928
+C0979,Garima Das,30,Bengaluru,Salaried,26600.0,1462,9295685586
+C0980,Triya Bedi,58,Ahmedabad,Salaried,50400.0,523,9178709328
+C0981,Rachita Rana,35,Chennai,Gig worker,53700.0,1355,9419061390
+C0982,Ayushman Raja,33,Hyderabad,Teacher,19200.0,364,9683712669
+C0983,Orinder Pandya,51,Hyderabad,Gig worker,23300.0,2787,9440537064
+C0984,Rachit Maharaj,46,Pune,Self-employed,26500.0,671,9227873742
+C0985,Sanaya Dixit,31,Chennai,Gig worker,31800.0,3779,9123447206
+C0986,Yatan Merchant,61,Pune,Teacher,19200.0,2775,9973762449
+C0987,Nisha Srinivas,25,Ahmedabad,Salaried,18700.0,3533,9686960744
+C0988,Gagan Mammen,42,Pune,Salaried,25200.0,3246,9755156359
+C0989,Laksh Saini,63,Jaipur,Shopkeeper,39700.0,3569,9483033568
+C0990,Zaid Bahl,52,Bengaluru,Engineer,21100.0,2512,9496293359
+C0991,Jagrati Srinivasan,49,Bengaluru,Gig worker,35900.0,2004,9389600752
+C0992,Hemangini Thakkar,64,Delhi,Engineer,64500.0,998,9300268032
+C0993,Lipika Madan,27,Mumbai,Salaried,19800.0,3364,9933654988
+C0994,Atharv Nagar,47,Delhi,Engineer,34300.0,2487,9568784580
+C0995,Ayushman Mand,63,Chennai,Salaried,63400.0,3163,9745192560
+C0996,Urmi Wagle,52,Lucknow,Salaried,30800.0,473,9529886788
+C0997,Viraj Dutta,50,Lucknow,Salaried,28500.0,3032,9848977513
+C0998,Yug Khosla,57,Lucknow,Shopkeeper,68000.0,2712,9433294727
+C0999,Daksh Kanda,40,Jaipur,Salaried,32600.0,2490,9615458337
+C1000,Isha Ghose,50,Chennai,Teacher,66000.0,471,9774758185
+C1001,Ramesh Kumar,57,Lucknow,Shopkeeper,40000.0,1527,9141747319
